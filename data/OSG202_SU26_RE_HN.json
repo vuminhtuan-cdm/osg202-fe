@@ -1328,7 +1328,7 @@
         "label": "B",
         "content": "366ms",
         "image_url": null,
-        "is_correct": false,
+        "is_correct": true,
         "question_id": "143f9ef9-001a-4eed-8091-2c2f16867fc3"
       },
       {
@@ -1352,7 +1352,7 @@
         "label": "E",
         "content": "666ms",
         "image_url": null,
-        "is_correct": true,
+        "is_correct": false,
         "question_id": "143f9ef9-001a-4eed-8091-2c2f16867fc3"
       }
     ]

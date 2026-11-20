@@ -1179,7 +1179,7 @@ var EXAMS_DATA = [
         "image_url": null,
         "type": "text",
         "chapter_name": "Tổng hợp",
-        "correct_answer": "E",
+        "correct_answer": "B",
         "is_multi": false,
         "correct_count": 1,
         "options": [
@@ -1193,7 +1193,7 @@ var EXAMS_DATA = [
             "id": "af4da5e1-dd35-4be2-8542-09e3b586921d",
             "label": "B",
             "content": "366ms",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": "bd60de2a-c756-4f9a-885e-1beda8209b50",
@@ -1211,7 +1211,7 @@ var EXAMS_DATA = [
             "id": "6e5c1279-f131-4e30-9c58-41ddaa0cf969",
             "label": "E",
             "content": "666ms",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -2085,10 +2085,10 @@ var EXAMS_DATA = [
     ],
     "counts": {
       "C": 14,
-      "B": 15,
+      "B": 16,
       "D": 6,
       "A": 13,
-      "E": 2
+      "E": 1
     },
     "total": 50
   },
@@ -20479,7 +20479,7 @@ var EXAMS_DATA = [
         "image_url": null,
         "type": "text",
         "chapter_name": "Tổng hợp",
-        "correct_answer": "E",
+        "correct_answer": "B",
         "is_multi": false,
         "correct_count": 1,
         "options": [
@@ -20493,7 +20493,7 @@ var EXAMS_DATA = [
             "id": "af4da5e1-dd35-4be2-8542-09e3b586921d",
             "label": "B",
             "content": "366ms",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": "bd60de2a-c756-4f9a-885e-1beda8209b50",
@@ -20511,7 +20511,7 @@ var EXAMS_DATA = [
             "id": "6e5c1279-f131-4e30-9c58-41ddaa0cf969",
             "label": "E",
             "content": "666ms",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -38486,10 +38486,10 @@ var EXAMS_DATA = [
     ],
     "counts": {
       "C": 85,
-      "B": 85,
+      "B": 86,
       "D": 44,
       "A": 128,
-      "E": 3,
+      "E": 2,
       "A, C, D": 2,
       "B, C, D": 1,
       "A, B, D, E": 1
