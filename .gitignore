@@ -1,0 +1,9 @@
+# OSG202 Git Ignore
+raw_exam7.json
+check_*.py
+extract_*.py
+process_*.py
+verify_*.py
+build_app_js.py
+__pycache__/
+*.pyc

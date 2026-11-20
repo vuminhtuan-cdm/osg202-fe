@@ -1,0 +1,2334 @@
+[
+  {
+    "id": "e930435c-8b72-433d-8b5e-e71cc466637a",
+    "exam_id": "2b237497-80c2-4c16-a741-4fa9692924ab",
+    "order_num": 1,
+    "content": "What is the primary purpose of an operating system?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-08-08T15:09:56.828392+00:00",
+    "explanation": null,
+    "question_options": [
+      {
+        "id": "8fe575a5-181d-408a-baf3-538c7e07b9d0",
+        "label": "A",
+        "content": "To execute application programs",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "e930435c-8b72-433d-8b5e-e71cc466637a"
+      },
+      {
+        "id": "4856851c-3c9c-4bea-b828-f3fcc8974a0a",
+        "label": "B",
+        "content": "To provide a user-friendly interface",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "e930435c-8b72-433d-8b5e-e71cc466637a"
+      },
+      {
+        "id": "f50c25cc-0264-409a-9708-c328c60227f9",
+        "label": "C",
+        "content": "To manage hardware resources and provide services to software",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "e930435c-8b72-433d-8b5e-e71cc466637a"
+      },
+      {
+        "id": "e6b6c448-f861-4261-9979-1388d30fb845",
+        "label": "D",
+        "content": "To create computer games",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "e930435c-8b72-433d-8b5e-e71cc466637a"
+      }
+    ]
+  },
+  {
+    "id": "0cefbc7f-239a-4bc6-bd24-91a78b826c2b",
+    "exam_id": "2b237497-80c2-4c16-a741-4fa9692924ab",
+    "order_num": 2,
+    "content": "In the evolution of operating systems, which fundamental shift was the most critical in enabling modern multitasking and time-sharing capabilities?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-08-08T15:09:57.428466+00:00",
+    "explanation": null,
+    "question_options": [
+      {
+        "id": "0deefa16-7d01-4206-8c84-6d5f751d7909",
+        "label": "A",
+        "content": "The introduction of graphical user interfaces (GUIS) in the 1980s",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "0cefbc7f-239a-4bc6-bd24-91a78b826c2b"
+      },
+      {
+        "id": "f65fda24-ccd0-4069-a78c-ad6eddb25879",
+        "label": "B",
+        "content": "The transition from batch processing to interactive computing in the 1960s",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "0cefbc7f-239a-4bc6-bd24-91a78b826c2b"
+      },
+      {
+        "id": "f5a3ffaf-9663-40eb-b6c5-6f598efa5c90",
+        "label": "C",
+        "content": "The development of single-user operating systems for personal computers in the 1970s",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "0cefbc7f-239a-4bc6-bd24-91a78b826c2b"
+      },
+      {
+        "id": "342110f9-00ba-4852-b071-a4c666bf6710",
+        "label": "D",
+        "content": "The adoption of cloud-based virtualization in the 2000s",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "0cefbc7f-239a-4bc6-bd24-91a78b826c2b"
+      }
+    ]
+  },
+  {
+    "id": "0769278c-44b3-46d7-8f6c-199ae1b7ad8b",
+    "exam_id": "2b237497-80c2-4c16-a741-4fa9692924ab",
+    "order_num": 3,
+    "content": "Which algorithm is used in UNIX for handling page replacement?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-08-08T15:09:57.949515+00:00",
+    "explanation": null,
+    "question_options": [
+      {
+        "id": "e71e2e2a-17f6-4dd1-808f-a4836775d1df",
+        "label": "A",
+        "content": "FIFO",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "0769278c-44b3-46d7-8f6c-199ae1b7ad8b"
+      },
+      {
+        "id": "268cb82d-030f-4d39-995c-ba00249a57a6",
+        "label": "B",
+        "content": "LRU (Least Recently Used)",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "0769278c-44b3-46d7-8f6c-199ae1b7ad8b"
+      },
+      {
+        "id": "d13ffd40-417f-43fb-8e40-a2d66b929ad9",
+        "label": "C",
+        "content": "Optimal",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "0769278c-44b3-46d7-8f6c-199ae1b7ad8b"
+      },
+      {
+        "id": "aa3ded4c-2d67-4547-8fae-96dc3840f2b2",
+        "label": "D",
+        "content": "Clock",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "0769278c-44b3-46d7-8f6c-199ae1b7ad8b"
+      }
+    ]
+  },
+  {
+    "id": "7d59eb2d-7bf7-4bc0-acdc-0332888e5767",
+    "exam_id": "2b237497-80c2-4c16-a741-4fa9692924ab",
+    "order_num": 4,
+    "content": "In threads, web servers use this fact to improve performance by maintaining a collection of heavily used pages in main memory to eliminate the need to go to disk to get them. What is a collection called?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-08-08T15:09:58.580746+00:00",
+    "explanation": null,
+    "question_options": [
+      {
+        "id": "2e9e72be-3321-48f5-bf6a-0370803f5c4e",
+        "label": "A",
+        "content": "Threads",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "7d59eb2d-7bf7-4bc0-acdc-0332888e5767"
+      },
+      {
+        "id": "47edab03-8fa4-4595-ab8f-5aaccf3e3d12",
+        "label": "B",
+        "content": "Dispatcher",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "7d59eb2d-7bf7-4bc0-acdc-0332888e5767"
+      },
+      {
+        "id": "145d3862-5714-43b7-8af6-8b1f6162d085",
+        "label": "C",
+        "content": "Buffer",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "7d59eb2d-7bf7-4bc0-acdc-0332888e5767"
+      },
+      {
+        "id": "1ab2b2f3-e0ff-4cb5-9769-de7687ffc1d4",
+        "label": "D",
+        "content": "Cache",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "7d59eb2d-7bf7-4bc0-acdc-0332888e5767"
+      }
+    ]
+  },
+  {
+    "id": "9ad46762-e9d7-4466-b496-cdd3bc1b2c80",
+    "exam_id": "2b237497-80c2-4c16-a741-4fa9692924ab",
+    "order_num": 5,
+    "content": "In the preemptive priority scheduling algorithm, when a process arrives at the ready queue, its priority is compared with the priority of",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-08-08T15:09:59.093978+00:00",
+    "explanation": null,
+    "question_options": [
+      {
+        "id": "7d1baabb-a4c5-4495-a352-cb38e42c86f4",
+        "label": "A",
+        "content": "all process",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "9ad46762-e9d7-4466-b496-cdd3bc1b2c80"
+      },
+      {
+        "id": "a47c21d0-70fa-4d98-a81c-87b825159ec7",
+        "label": "B",
+        "content": "currently running process",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "9ad46762-e9d7-4466-b496-cdd3bc1b2c80"
+      },
+      {
+        "id": "bb4c24ff-82d3-4c7f-8d82-76311091dc6c",
+        "label": "C",
+        "content": "parent process",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "9ad46762-e9d7-4466-b496-cdd3bc1b2c80"
+      },
+      {
+        "id": "293c743d-fb0b-444f-a07b-cf3c25fc9223",
+        "label": "D",
+        "content": "init process",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "9ad46762-e9d7-4466-b496-cdd3bc1b2c80"
+      }
+    ]
+  },
+  {
+    "id": "80a90198-76ee-46fb-b38a-e3b71867dfea",
+    "exam_id": "2b237497-80c2-4c16-a741-4fa9692924ab",
+    "order_num": 6,
+    "content": "In the Round-robin scheduling, what happens to a process when it runs out of the of time allocated by the system?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-08-08T15:09:59.617959+00:00",
+    "explanation": null,
+    "question_options": [
+      {
+        "id": "03c1e5ce-9c27-4651-98ad-715acdf23075",
+        "label": "A",
+        "content": "The process switches from running to a ready state.",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "80a90198-76ee-46fb-b38a-e3b71867dfea"
+      },
+      {
+        "id": "39ae0d3a-3c83-4751-9427-e0a3c1fe5a04",
+        "label": "B",
+        "content": "The process switches from running to a blocked state.",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "80a90198-76ee-46fb-b38a-e3b71867dfea"
+      },
+      {
+        "id": "0a61ccba-6558-4b40-8842-8ebd631c7515",
+        "label": "C",
+        "content": "The process switches from running to a suspended-ready state.",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "80a90198-76ee-46fb-b38a-e3b71867dfea"
+      },
+      {
+        "id": "a46521ac-209b-4f39-9f1e-ead3deee7af4",
+        "label": "D",
+        "content": "The process switches from running to a suspended state.",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "80a90198-76ee-46fb-b38a-e3b71867dfea"
+      }
+    ]
+  },
+  {
+    "id": "441a1eab-de4b-4022-976b-26fa2e2a51ef",
+    "exam_id": "2b237497-80c2-4c16-a741-4fa9692924ab",
+    "order_num": 7,
+    "content": "Which programming model supports parallel execution but may involve blocking system calls during execution?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-08-08T15:10:00.1433+00:00",
+    "explanation": null,
+    "question_options": [
+      {
+        "id": "d8705aa6-bb24-477e-9fa6-7e43a9b571eb",
+        "label": "A",
+        "content": "Single-threaded process",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "441a1eab-de4b-4022-976b-26fa2e2a51ef"
+      },
+      {
+        "id": "2590c6f0-b2b5-4838-b152-9ee879bf7900",
+        "label": "B",
+        "content": "Finite-state machine",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "441a1eab-de4b-4022-976b-26fa2e2a51ef"
+      },
+      {
+        "id": "cf0a69ce-2c58-45e4-b2b3-71965e26a893",
+        "label": "C",
+        "content": "Threads",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "441a1eab-de4b-4022-976b-26fa2e2a51ef"
+      },
+      {
+        "id": "c55d7847-19c0-4983-96fa-00259745bee7",
+        "label": "D",
+        "content": "None of the above",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "441a1eab-de4b-4022-976b-26fa2e2a51ef"
+      }
+    ]
+  },
+  {
+    "id": "58e79193-86e5-4c0a-b745-8e036ce93ada",
+    "exam_id": "2b237497-80c2-4c16-a741-4fa9692924ab",
+    "order_num": 8,
+    "content": "What defines a critical section in the context of the Windows operating system?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-08-08T15:10:00.673508+00:00",
+    "explanation": null,
+    "question_options": [
+      {
+        "id": "7468a272-babf-4d7f-8b67-82e3aeebc1c6",
+        "label": "A",
+        "content": "It is a section of code where the processor gives priority to execute multiple threads simultaneously",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "58e79193-86e5-4c0a-b745-8e036ce93ada"
+      },
+      {
+        "id": "23caae75-5631-4de1-ae62-5a4501834d7e",
+        "label": "B",
+        "content": "It is a section of code where hardware interrupts are disabled to ensure uninterrupted execution.",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "58e79193-86e5-4c0a-b745-8e036ce93ada"
+      },
+      {
+        "id": "6841262c-82e9-4a44-ac1a-f99e3c4d01ab",
+        "label": "C",
+        "content": "It is a segment of code that only one thread can execute at a time to avoid data inconsistency or conflicts.",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "58e79193-86e5-4c0a-b745-8e036ce93ada"
+      },
+      {
+        "id": "e99ed4ed-9a83-44a3-a476-f99bc0811db4",
+        "label": "D",
+        "content": "It is a part of the kernel where system-level processes are given higher priority over user-level processes",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "58e79193-86e5-4c0a-b745-8e036ce93ada"
+      }
+    ]
+  },
+  {
+    "id": "ddef380e-410f-47d9-9c04-85d9cffe5483",
+    "exam_id": "2b237497-80c2-4c16-a741-4fa9692924ab",
+    "order_num": 9,
+    "content": "A CPU-scheduling algorithm determines an order for the execution of its scheduled processes. Given n processes to be scheduled on one processor, how many different schedules are possible?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-08-08T15:10:01.214606+00:00",
+    "explanation": null,
+    "question_options": [
+      {
+        "id": "132e2c1a-b920-4a05-8ec3-280aa5a48945",
+        "label": "A",
+        "content": "n!",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "ddef380e-410f-47d9-9c04-85d9cffe5483"
+      },
+      {
+        "id": "4ba66112-47fe-4a30-a0ee-39605168bca6",
+        "label": "B",
+        "content": "2n",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "ddef380e-410f-47d9-9c04-85d9cffe5483"
+      },
+      {
+        "id": "97f0b54d-b2a0-4dbd-a3dd-28cb2ea92b3f",
+        "label": "C",
+        "content": "log2n",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "ddef380e-410f-47d9-9c04-85d9cffe5483"
+      },
+      {
+        "id": "f7ed0e52-bd75-41f7-9c36-c4c8b3ee0b93",
+        "label": "D",
+        "content": "n",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "ddef380e-410f-47d9-9c04-85d9cffe5483"
+      }
+    ]
+  },
+  {
+    "id": "eb555c05-ab1f-492b-b662-84670327f9bd",
+    "exam_id": "2b237497-80c2-4c16-a741-4fa9692924ab",
+    "order_num": 10,
+    "content": "In the Dining Philosophers problem, what do the philosophers represent?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-08-08T15:10:01.761527+00:00",
+    "explanation": null,
+    "question_options": [
+      {
+        "id": "f7cb883b-bc0f-4c31-b26b-82a79506323a",
+        "label": "A",
+        "content": "Real-world philosophers dining in a restaurant.",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "eb555c05-ab1f-492b-b662-84670327f9bd"
+      },
+      {
+        "id": "1d7bfd37-31bd-4f46-b950-ea17d7d61adf",
+        "label": "B",
+        "content": "Concurrent processes that compete for access to shared resources.",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "eb555c05-ab1f-492b-b662-84670327f9bd"
+      },
+      {
+        "id": "f5e5f76a-65b1-462d-83d7-1f977347f516",
+        "label": "C",
+        "content": "Philosophical concepts unrelated to computing",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "eb555c05-ab1f-492b-b662-84670327f9bd"
+      },
+      {
+        "id": "ee628f5b-1201-4783-82eb-b6dd7c15f649",
+        "label": "D",
+        "content": "A form of computer virus.",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "eb555c05-ab1f-492b-b662-84670327f9bd"
+      }
+    ]
+  },
+  {
+    "id": "a745607b-83df-4a0e-8447-a1eace0f1403",
+    "exam_id": "2b237497-80c2-4c16-a741-4fa9692924ab",
+    "order_num": 11,
+    "content": "With demand paging, what increases when page size is reduced?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-08-08T15:10:02.33479+00:00",
+    "explanation": null,
+    "question_options": [
+      {
+        "id": "195c437d-5031-427b-a258-144d0e1bd239",
+        "label": "A",
+        "content": "Page fault rate",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "a745607b-83df-4a0e-8447-a1eace0f1403"
+      },
+      {
+        "id": "6925dc83-3a59-4fcd-9e66-e5f60c721218",
+        "label": "B",
+        "content": "Internal fragmentation",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "a745607b-83df-4a0e-8447-a1eace0f1403"
+      },
+      {
+        "id": "b1cc7c0e-7513-4cd6-b748-abddbb17e482",
+        "label": "C",
+        "content": "External fragmentation",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "a745607b-83df-4a0e-8447-a1eace0f1403"
+      },
+      {
+        "id": "778fe3e9-a4d2-47fe-b019-f4f151df8787",
+        "label": "D",
+        "content": "Hit ratio",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "a745607b-83df-4a0e-8447-a1eace0f1403"
+      },
+      {
+        "id": "d0290069-b923-42d6-860f-119e96864cb7",
+        "label": "E",
+        "content": "None",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "a745607b-83df-4a0e-8447-a1eace0f1403"
+      }
+    ]
+  },
+  {
+    "id": "2d770e3f-1451-46a5-ac52-c1dc7af10756",
+    "exam_id": "2b237497-80c2-4c16-a741-4fa9692924ab",
+    "order_num": 12,
+    "content": "What's the main advantage of using the Clock Algorithm over the Second Chance Algorithm in terms of page replacement efficiency?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-08-08T15:10:02.805979+00:00",
+    "explanation": null,
+    "question_options": [
+      {
+        "id": "e9b69d90-5721-44f5-9749-10f439e3035a",
+        "label": "A",
+        "content": "The Clock algorithm eliminates the need to move pages around, reducing overhead",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "2d770e3f-1451-46a5-ac52-c1dc7af10756"
+      },
+      {
+        "id": "617d3eb5-e676-4247-8f1c-3d2593932922",
+        "label": "B",
+        "content": "The Clock algorithm increases the complexity of implementation.",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "2d770e3f-1451-46a5-ac52-c1dc7af10756"
+      },
+      {
+        "id": "bc097114-37d6-4226-a8cf-7c45cfa545ae",
+        "label": "C",
+        "content": "The Clock algorithm guarantees fewer page faults compared to Second Chance algorithm",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "2d770e3f-1451-46a5-ac52-c1dc7af10756"
+      },
+      {
+        "id": "f5a493e0-d6da-445b-bbaf-69532a59db9f",
+        "label": "D",
+        "content": "The Clock algorithm uses more memory to maintain the circular structure.",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "2d770e3f-1451-46a5-ac52-c1dc7af10756"
+      }
+    ]
+  },
+  {
+    "id": "89546f3f-8b41-46d3-955b-ef286aad5860",
+    "exam_id": "2b237497-80c2-4c16-a741-4fa9692924ab",
+    "order_num": 13,
+    "content": "Which of the following is true about virtual address spaces?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-08-08T15:10:03.367592+00:00",
+    "explanation": null,
+    "question_options": [
+      {
+        "id": "456a2bf1-253b-4fe8-84d0-afef513473fa",
+        "label": "A",
+        "content": "They are the same as physical address spaces.",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "89546f3f-8b41-46d3-955b-ef286aad5860"
+      },
+      {
+        "id": "b9a43323-5611-4e0e-ae84-b85f381c8e7c",
+        "label": "B",
+        "content": "They allow multiple processes to run in the same memory area",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "89546f3f-8b41-46d3-955b-ef286aad5860"
+      },
+      {
+        "id": "9461f456-111e-474f-bde0-0849e3d1d2d3",
+        "label": "C",
+        "content": "They provide isolation between processes.",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "89546f3f-8b41-46d3-955b-ef286aad5860"
+      },
+      {
+        "id": "c2e702e3-3ddb-419b-834a-15d208e6deb1",
+        "label": "D",
+        "content": "They are managed by hardware only, without the operating system's involvement",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "89546f3f-8b41-46d3-955b-ef286aad5860"
+      }
+    ]
+  },
+  {
+    "id": "c4a154e1-3746-4527-864f-6b7a99e0e435",
+    "exam_id": "2b237497-80c2-4c16-a741-4fa9692924ab",
+    "order_num": 14,
+    "content": "What is the role of the Memory Management Unit (MMU) in a computer system?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-08-08T15:10:03.866706+00:00",
+    "explanation": null,
+    "question_options": [
+      {
+        "id": "0ed3bc18-6c8f-43fa-ad5d-76213e09dbd1",
+        "label": "A",
+        "content": "The MMU translates virtual addresses into physical addresses",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "c4a154e1-3746-4527-864f-6b7a99e0e435"
+      },
+      {
+        "id": "f0476c93-c422-45b5-94f6-462f4a6c385d",
+        "label": "B",
+        "content": "It controls the allocation of memory to different processes.",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "c4a154e1-3746-4527-864f-6b7a99e0e435"
+      },
+      {
+        "id": "733acde1-3c3f-4397-a1c4-b829766942bb",
+        "label": "C",
+        "content": "It manages the paging and swapping of memory pages.",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "c4a154e1-3746-4527-864f-6b7a99e0e435"
+      },
+      {
+        "id": "aa5b71bb-6176-473d-abde-5e6e7b541996",
+        "label": "D",
+        "content": "It is a data structure used in computer operating systems for virtual memory management",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "c4a154e1-3746-4527-864f-6b7a99e0e435"
+      }
+    ]
+  },
+  {
+    "id": "ee5c4c06-713a-47b8-8bfc-cff431469ff5",
+    "exam_id": "2b237497-80c2-4c16-a741-4fa9692924ab",
+    "order_num": 15,
+    "content": "Given a memory system using Base and Limit Registers, where three programs P1, P2, and P3 are loaded with sizes 8KB, 4KB, and 16KB respectively, what are the values of the Base and Limit Registers for program P3?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-08-08T15:10:04.348547+00:00",
+    "explanation": null,
+    "question_options": [
+      {
+        "id": "e1a0311b-19d3-4244-8b89-c6892dbc1f3e",
+        "label": "A",
+        "content": "Base: 8KB, Limit: 24KB",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "ee5c4c06-713a-47b8-8bfc-cff431469ff5"
+      },
+      {
+        "id": "64aa0103-02fb-41bb-b2b7-a731fb638fc9",
+        "label": "B",
+        "content": "Base: 8KB, Limit: 28KB",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "ee5c4c06-713a-47b8-8bfc-cff431469ff5"
+      },
+      {
+        "id": "06674106-260b-4b1a-a330-5bb92ebc1d53",
+        "label": "C",
+        "content": "Base: 12KB, Limit: 16KB",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "ee5c4c06-713a-47b8-8bfc-cff431469ff5"
+      },
+      {
+        "id": "dd3f9696-d89a-482c-a8e1-f60368bd87a7",
+        "label": "D",
+        "content": "Base: 12KB, Limit: 28KB",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "ee5c4c06-713a-47b8-8bfc-cff431469ff5"
+      }
+    ]
+  },
+  {
+    "id": "307b00e5-74a7-4a1c-ad9a-953cda1941e0",
+    "exam_id": "2b237497-80c2-4c16-a741-4fa9692924ab",
+    "order_num": 16,
+    "content": "What technique is not used in the implementation of Virtual Memory?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-08-08T15:10:04.817864+00:00",
+    "explanation": null,
+    "question_options": [
+      {
+        "id": "eb66c4f6-9834-4580-ae87-eb151ffa06c2",
+        "label": "A",
+        "content": "Paging",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "307b00e5-74a7-4a1c-ad9a-953cda1941e0"
+      },
+      {
+        "id": "cd05f701-2cf5-472c-b329-72edcf824830",
+        "label": "B",
+        "content": "Mapping",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "307b00e5-74a7-4a1c-ad9a-953cda1941e0"
+      },
+      {
+        "id": "14053168-e218-4501-99f0-ca75a15f3895",
+        "label": "C",
+        "content": "Segmentation",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "307b00e5-74a7-4a1c-ad9a-953cda1941e0"
+      },
+      {
+        "id": "f13a7bb7-b598-48f2-a429-d67c33f256ee",
+        "label": "D",
+        "content": "Partition",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "307b00e5-74a7-4a1c-ad9a-953cda1941e0"
+      }
+    ]
+  },
+  {
+    "id": "fd9a56fa-cd6b-4ea2-b65a-5b0549adf401",
+    "exam_id": "2b237497-80c2-4c16-a741-4fa9692924ab",
+    "order_num": 17,
+    "content": "If FIFO page replacement algorithm is used with four page frames, how many page faults will occur with the reference string 0172327103 if the four frames are initially empty?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-08-08T15:10:05.337397+00:00",
+    "explanation": null,
+    "question_options": [
+      {
+        "id": "3bcaf419-bcb7-470a-83bc-2908dadc273c",
+        "label": "A",
+        "content": "4 Pages",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "fd9a56fa-cd6b-4ea2-b65a-5b0549adf401"
+      },
+      {
+        "id": "d976b14c-c524-4bea-85c8-14967cc30f35",
+        "label": "B",
+        "content": "5 Pages",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "fd9a56fa-cd6b-4ea2-b65a-5b0549adf401"
+      },
+      {
+        "id": "94ba56a8-8a5b-4ff2-9146-6441c4a93951",
+        "label": "C",
+        "content": "6 Pages",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "fd9a56fa-cd6b-4ea2-b65a-5b0549adf401"
+      },
+      {
+        "id": "ebcc8da5-8904-4b7d-9674-152930e364c1",
+        "label": "D",
+        "content": "7 Pages",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "fd9a56fa-cd6b-4ea2-b65a-5b0549adf401"
+      }
+    ]
+  },
+  {
+    "id": "e580b072-e5a8-4947-8ba1-fec48148f902",
+    "exam_id": "2b237497-80c2-4c16-a741-4fa9692924ab",
+    "order_num": 18,
+    "content": "When designing a paging system, which of the following factors is the most critical in minimizing translation overhead?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-08-08T15:10:05.93057+00:00",
+    "explanation": null,
+    "question_options": [
+      {
+        "id": "7b40ff6d-909d-4f92-ac55-db9f56717335",
+        "label": "A",
+        "content": "Increasing the number of page table entries per process",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "e580b072-e5a8-4947-8ba1-fec48148f902"
+      },
+      {
+        "id": "f7eb29bc-ff27-4506-b2fc-e7c8300cbce6",
+        "label": "B",
+        "content": "Using a Translation Lookaside Buffer (TLB) for faster lookups",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "e580b072-e5a8-4947-8ba1-fec48148f902"
+      },
+      {
+        "id": "2657c3cd-22ed-4cb1-90a6-035f782e6681",
+        "label": "C",
+        "content": "Storing page tables in slower secondary storage",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "e580b072-e5a8-4947-8ba1-fec48148f902"
+      },
+      {
+        "id": "f2eb4719-f24b-451b-a0d4-5ac2892eed39",
+        "label": "D",
+        "content": "Assigning fixed-size page frames without considering process needs",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "e580b072-e5a8-4947-8ba1-fec48148f902"
+      }
+    ]
+  },
+  {
+    "id": "80f85bd1-84ae-4b62-aec0-e0dc30d2e6bf",
+    "exam_id": "2b237497-80c2-4c16-a741-4fa9692924ab",
+    "order_num": 19,
+    "content": "What happens when the required page is being loaded from disk after a page fault?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-08-08T15:10:06.41157+00:00",
+    "explanation": null,
+    "question_options": [
+      {
+        "id": "70f91b25-5e9b-43fc-81d3-55d57146b102",
+        "label": "A",
+        "content": "Another user process may be scheduled to run",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "80f85bd1-84ae-4b62-aec0-e0dc30d2e6bf"
+      },
+      {
+        "id": "41b1923f-a19f-4dce-bfd1-8dcd089f3e53",
+        "label": "B",
+        "content": "The CPU enters halt mode",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "80f85bd1-84ae-4b62-aec0-e0dc30d2e6bf"
+      },
+      {
+        "id": "bb456813-73e8-48a5-84ae-816cf9194b82",
+        "label": "C",
+        "content": "The faulting process is permanently blocked",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "80f85bd1-84ae-4b62-aec0-e0dc30d2e6bf"
+      },
+      {
+        "id": "75912fcc-6d84-4476-9c25-5536f245a190",
+        "label": "D",
+        "content": "The system waits in a loop for disk I/O to complete",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "80f85bd1-84ae-4b62-aec0-e0dc30d2e6bf"
+      }
+    ]
+  },
+  {
+    "id": "6b2f87e4-02f7-4c91-89d2-b1c07babfec3",
+    "exam_id": "2b237497-80c2-4c16-a741-4fa9692924ab",
+    "order_num": 20,
+    "content": "What are the primary functions associated with a file system as viewed from an external perspective?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-08-08T15:10:06.917742+00:00",
+    "explanation": null,
+    "question_options": [
+      {
+        "id": "f02a3410-8772-44d8-a280-3e32cb054472",
+        "label": "A",
+        "content": "Reading and writing files, creating and destroying directories, moving files between directories",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "6b2f87e4-02f7-4c91-89d2-b1c07babfec3"
+      },
+      {
+        "id": "b0c300f0-8216-4598-b103-06a7aac7be07",
+        "label": "B",
+        "content": "Storing data in memory, allocating disk space, managing I-nodes",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "6b2f87e4-02f7-4c91-89d2-b1c07babfec3"
+      },
+      {
+        "id": "8e30af7d-ef3f-4211-8d6b-b44a56fbf7fa",
+        "label": "C",
+        "content": "Allocating blocks to files, managing file-allocation tables, and performing system backups",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "6b2f87e4-02f7-4c91-89d2-b1c07babfec3"
+      },
+      {
+        "id": "bbcc6103-65f9-4a43-b486-1dced5e78f38",
+        "label": "D",
+        "content": "Executing system calls, managing disk caches, and optimizing read-ahead operations",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "6b2f87e4-02f7-4c91-89d2-b1c07babfec3"
+      }
+    ]
+  },
+  {
+    "id": "d27ffa96-de52-40d3-9386-fec02e17d1fa",
+    "exam_id": "2b237497-80c2-4c16-a741-4fa9692924ab",
+    "order_num": 21,
+    "content": "In file allocation, which strategy uses both index blocks and contiguous portions?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-08-08T15:10:07.445456+00:00",
+    "explanation": null,
+    "question_options": [
+      {
+        "id": "9a401636-59e9-4c57-bd7b-ff927c55ab42",
+        "label": "A",
+        "content": "Contiguous",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "d27ffa96-de52-40d3-9386-fec02e17d1fa"
+      },
+      {
+        "id": "0ed40afe-f098-456a-9d4d-65a368a47600",
+        "label": "B",
+        "content": "Linked",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "d27ffa96-de52-40d3-9386-fec02e17d1fa"
+      },
+      {
+        "id": "f7c9e3fa-ea0e-4420-b257-d092c6823d86",
+        "label": "C",
+        "content": "Indexed",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "d27ffa96-de52-40d3-9386-fec02e17d1fa"
+      },
+      {
+        "id": "21552813-1e47-473a-a594-39ada3d8dc89",
+        "label": "D",
+        "content": "Multilevel index",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "d27ffa96-de52-40d3-9386-fec02e17d1fa"
+      },
+      {
+        "id": "68b2769c-2642-4131-94a4-3d096257869b",
+        "label": "E",
+        "content": "Extentbased",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "d27ffa96-de52-40d3-9386-fec02e17d1fa"
+      }
+    ]
+  },
+  {
+    "id": "a9294eca-ba62-4c5d-be70-f3ba5403da64",
+    "exam_id": "2b237497-80c2-4c16-a741-4fa9692924ab",
+    "order_num": 22,
+    "content": "Which of the following best describes a regular file in UNIX or Windows systems?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-08-08T15:10:07.919543+00:00",
+    "explanation": null,
+    "question_options": [
+      {
+        "id": "dce4b113-32f1-412d-9f90-6655ed7c9723",
+        "label": "A",
+        "content": "A file that stores printer configuration data",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "a9294eca-ba62-4c5d-be70-f3ba5403da64"
+      },
+      {
+        "id": "32b9b36e-1fc6-48b3-8b51-2da63d387cc8",
+        "label": "B",
+        "content": "A user-created file containing ASCII or binary data",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "a9294eca-ba62-4c5d-be70-f3ba5403da64"
+      },
+      {
+        "id": "a8a41edc-7aa5-4325-84d4-659868f831aa",
+        "label": "C",
+        "content": "A system-level directory used for I/O mapping",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "a9294eca-ba62-4c5d-be70-f3ba5403da64"
+      },
+      {
+        "id": "df7cf703-3a35-4800-8c06-772f244ff904",
+        "label": "D",
+        "content": "A file representing a disk partition or mount point",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "a9294eca-ba62-4c5d-be70-f3ba5403da64"
+      }
+    ]
+  },
+  {
+    "id": "c07eaf78-4c7c-43bf-9604-21cb2f1c5dac",
+    "exam_id": "2b237497-80c2-4c16-a741-4fa9692924ab",
+    "order_num": 23,
+    "content": "Which directory structure would be the most efficient in preventing filename conflicts while allowing quick lookups?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-08-08T15:10:08.409338+00:00",
+    "explanation": null,
+    "question_options": [
+      {
+        "id": "ffda8fd0-f9b9-4fd0-8773-77b1d1eb6c50",
+        "label": "A",
+        "content": "Single-level directory",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "c07eaf78-4c7c-43bf-9604-21cb2f1c5dac"
+      },
+      {
+        "id": "5a24b3bd-e322-48ff-8eef-5261209e6cf1",
+        "label": "B",
+        "content": "Two-level directory",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "c07eaf78-4c7c-43bf-9604-21cb2f1c5dac"
+      },
+      {
+        "id": "83b9c58a-c5dc-4a42-86bb-49038e7ad889",
+        "label": "C",
+        "content": "Tree-structured directory",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "c07eaf78-4c7c-43bf-9604-21cb2f1c5dac"
+      },
+      {
+        "id": "31377134-e32a-4898-b162-0a0ce531fe37",
+        "label": "D",
+        "content": "Graph-based directory with soft links",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "c07eaf78-4c7c-43bf-9604-21cb2f1c5dac"
+      }
+    ]
+  },
+  {
+    "id": "4e6e4feb-2daf-4370-a708-2472fec6c667",
+    "exam_id": "2b237497-80c2-4c16-a741-4fa9692924ab",
+    "order_num": 24,
+    "content": "In file sharing, B links to one of C's files by having the system create a new file, of type LINK, and entering that file in B's directory. The new file contains just the path name of the file to which it is linked. When B reads from the linked file, the operating system sees that the file being read from is of type LINK, looks up the name of the file, and reads that file. Which of the following is the correct about the type of file sharing described above?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-08-08T15:10:08.892198+00:00",
+    "explanation": null,
+    "question_options": [
+      {
+        "id": "3f2f7094-bd88-4557-9899-77db30e1bdc5",
+        "label": "A",
+        "content": "Synchronous Linking",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "4e6e4feb-2daf-4370-a708-2472fec6c667"
+      },
+      {
+        "id": "f3383c03-3253-41e4-af66-a25c7314ecb3",
+        "label": "B",
+        "content": "Symbolic Linking",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "4e6e4feb-2daf-4370-a708-2472fec6c667"
+      },
+      {
+        "id": "899989ae-b518-4a3a-aeee-ba8e5ab3086e",
+        "label": "C",
+        "content": "Traditional (hard) Linking",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "4e6e4feb-2daf-4370-a708-2472fec6c667"
+      },
+      {
+        "id": "d29b62eb-f397-4c80-a61f-023f8f1ae27f",
+        "label": "D",
+        "content": "Synthetic Linking",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "4e6e4feb-2daf-4370-a708-2472fec6c667"
+      }
+    ]
+  },
+  {
+    "id": "811d9f6e-f775-40f2-b409-405eb19eb488",
+    "exam_id": "2b237497-80c2-4c16-a741-4fa9692924ab",
+    "order_num": 25,
+    "content": "Why is defragmenting a Solid-State Drive (SSD) generally not recommended?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-08-08T15:10:09.405308+00:00",
+    "explanation": null,
+    "question_options": [
+      {
+        "id": "a29bd4c3-dcde-47f1-9b2a-3e1229f369e3",
+        "label": "A",
+        "content": "SSDs store data without needing contiguous blocks",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "811d9f6e-f775-40f2-b409-405eb19eb488"
+      },
+      {
+        "id": "9a4d0295-9e1b-4d8f-9f64-32408ea52457",
+        "label": "B",
+        "content": "SSDs can fail when defragmented more than once",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "811d9f6e-f775-40f2-b409-405eb19eb488"
+      },
+      {
+        "id": "345e92a7-2ef5-4501-a3c5-fcd962917cbb",
+        "label": "C",
+        "content": "SSDs degrade faster with unnecessary write cycles",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "811d9f6e-f775-40f2-b409-405eb19eb488"
+      },
+      {
+        "id": "959c9187-c006-4ee8-8851-748132d587fd",
+        "label": "D",
+        "content": "SSDs auto-defrag and ignore manual optimization",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "811d9f6e-f775-40f2-b409-405eb19eb488"
+      }
+    ]
+  },
+  {
+    "id": "739a0732-7fab-4a82-b19f-e5db03cf5e2c",
+    "exam_id": "2b237497-80c2-4c16-a741-4fa9692924ab",
+    "order_num": 26,
+    "content": "Which ISO 9660 level allows a file to consist of several extents (i.e., noncontiguous segments) by partially relaxing the contiguous file requirement?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-08-08T15:10:09.870178+00:00",
+    "explanation": null,
+    "question_options": [
+      {
+        "id": "24ae95c7-46c1-4f0f-a6b7-6258843d0ca4",
+        "label": "A",
+        "content": "Level 1",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "739a0732-7fab-4a82-b19f-e5db03cf5e2c"
+      },
+      {
+        "id": "8a487603-2ed1-43e8-a425-9c88d708f0a0",
+        "label": "B",
+        "content": "Level 2",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "739a0732-7fab-4a82-b19f-e5db03cf5e2c"
+      },
+      {
+        "id": "8dfc98b0-2dad-4496-9059-9a29e1c66d8b",
+        "label": "C",
+        "content": "Level 3",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "739a0732-7fab-4a82-b19f-e5db03cf5e2c"
+      },
+      {
+        "id": "0195036e-88d0-43c9-9755-54841a51ba1f",
+        "label": "D",
+        "content": "None of the above",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "739a0732-7fab-4a82-b19f-e5db03cf5e2c"
+      }
+    ]
+  },
+  {
+    "id": "ae9b7ea2-0c16-4f54-b364-f2b2cefa69eb",
+    "exam_id": "2b237497-80c2-4c16-a741-4fa9692924ab",
+    "order_num": 27,
+    "content": "Time to move the arm to the proper cylinder is called?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-08-08T15:10:10.405445+00:00",
+    "explanation": null,
+    "question_options": [
+      {
+        "id": "c6d220ed-daab-4018-997b-faf1ecf1b41b",
+        "label": "A",
+        "content": "Seek time",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "ae9b7ea2-0c16-4f54-b364-f2b2cefa69eb"
+      },
+      {
+        "id": "4ace89a7-0329-4512-ac54-6cf5ded45425",
+        "label": "B",
+        "content": "Rotational delay",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "ae9b7ea2-0c16-4f54-b364-f2b2cefa69eb"
+      },
+      {
+        "id": "7e029dc8-69db-4500-b7d6-aa48ab3f4d36",
+        "label": "C",
+        "content": "Actual data transfer time",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "ae9b7ea2-0c16-4f54-b364-f2b2cefa69eb"
+      },
+      {
+        "id": "83a6e46a-2a91-4a76-b7db-19c2a18532b6",
+        "label": "D",
+        "content": "Access time",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "ae9b7ea2-0c16-4f54-b364-f2b2cefa69eb"
+      }
+    ]
+  },
+  {
+    "id": "dbcefefd-0132-4177-9331-64f162597ab9",
+    "exam_id": "2b237497-80c2-4c16-a741-4fa9692924ab",
+    "order_num": 28,
+    "content": "Which statement is true about the classification of a process based on its behavior?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-08-08T15:10:10.942248+00:00",
+    "explanation": null,
+    "question_options": [
+      {
+        "id": "0dabd4bd-a399-4e24-b423-150561f534da",
+        "label": "A",
+        "content": "A compute-bound process spent most of its time computing",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "dbcefefd-0132-4177-9331-64f162597ab9"
+      },
+      {
+        "id": "ac92ff2b-9b0f-47cc-a355-61029b82f0aa",
+        "label": "B",
+        "content": "A compute-bound process spent most of its time on IO processing",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "dbcefefd-0132-4177-9331-64f162597ab9"
+      },
+      {
+        "id": "a2cb4457-4f17-4564-95bd-ad964f5c28f9",
+        "label": "C",
+        "content": "An I/O-bound process spent most of its time computing",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "dbcefefd-0132-4177-9331-64f162597ab9"
+      },
+      {
+        "id": "bf9cb5af-9832-4085-a646-7790380c70c8",
+        "label": "D",
+        "content": "A compute-bound process sometimes spent most of its time for IO waiting",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "dbcefefd-0132-4177-9331-64f162597ab9"
+      }
+    ]
+  },
+  {
+    "id": "143f9ef9-001a-4eed-8091-2c2f16867fc3",
+    "exam_id": "2b237497-80c2-4c16-a741-4fa9692924ab",
+    "order_num": 29,
+    "content": "In Disk Arm Scheduling Algorithms Consider the seek to cylinder 111s in progress, new requests come in for cylinders 1, 36, 16, 34, 9, and 12; A seek takes 6 msec per cylinder. Calculate Seek time with Shortest Seek First (SSF) algorithm?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-08-08T15:10:11.44119+00:00",
+    "explanation": null,
+    "question_options": [
+      {
+        "id": "e9afcf2f-f0ad-4345-8766-15c0ebe0023b",
+        "label": "A",
+        "content": "360ms",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "143f9ef9-001a-4eed-8091-2c2f16867fc3"
+      },
+      {
+        "id": "af4da5e1-dd35-4be2-8542-09e3b586921d",
+        "label": "B",
+        "content": "366ms",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "143f9ef9-001a-4eed-8091-2c2f16867fc3"
+      },
+      {
+        "id": "bd60de2a-c756-4f9a-885e-1beda8209b50",
+        "label": "C",
+        "content": "560ms",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "143f9ef9-001a-4eed-8091-2c2f16867fc3"
+      },
+      {
+        "id": "f21b849c-6b2d-457f-8083-f40bd58c833e",
+        "label": "D",
+        "content": "566ms",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "143f9ef9-001a-4eed-8091-2c2f16867fc3"
+      },
+      {
+        "id": "6e5c1279-f131-4e30-9c58-41ddaa0cf969",
+        "label": "E",
+        "content": "666ms",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "143f9ef9-001a-4eed-8091-2c2f16867fc3"
+      }
+    ]
+  },
+  {
+    "id": "4651ee2a-50e0-4762-a567-09c069cbdd90",
+    "exam_id": "2b237497-80c2-4c16-a741-4fa9692924ab",
+    "order_num": 30,
+    "content": "An interrupt has four properties: 1. The PC (Program Counter) is saved in a known place. 2. All instructions before the one pointed to by the PC have completed 3. No instruction beyond the one pointed to by the PC has finished 4. The execution state of the instruction pointed to by the PC is known What type of Interrupt is it?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-08-08T15:10:11.965336+00:00",
+    "explanation": null,
+    "question_options": [
+      {
+        "id": "60929fdc-fd87-4423-82ae-5b6972726941",
+        "label": "A",
+        "content": "Imprecise interrupt",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "4651ee2a-50e0-4762-a567-09c069cbdd90"
+      },
+      {
+        "id": "5f431619-02ef-4231-b11f-08d55ea4471f",
+        "label": "B",
+        "content": "Synchronous interrupt",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "4651ee2a-50e0-4762-a567-09c069cbdd90"
+      },
+      {
+        "id": "ef1eb250-629e-4a0e-a56d-8f032577a34a",
+        "label": "C",
+        "content": "Sequential interrupt",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "4651ee2a-50e0-4762-a567-09c069cbdd90"
+      },
+      {
+        "id": "a1a3b1e0-8e82-4617-b314-4e79444874bf",
+        "label": "D",
+        "content": "Precise interrupt",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "4651ee2a-50e0-4762-a567-09c069cbdd90"
+      }
+    ]
+  },
+  {
+    "id": "710c4094-bea3-4311-875e-f0949e939d78",
+    "exam_id": "2b237497-80c2-4c16-a741-4fa9692924ab",
+    "order_num": 31,
+    "content": "What is the effect of using interrupts instead of polling for 10?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-08-08T15:10:12.59921+00:00",
+    "explanation": null,
+    "question_options": [
+      {
+        "id": "55a5b750-62d9-4731-9999-3308316e13ce",
+        "label": "A",
+        "content": "Slower response time to external events",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "710c4094-bea3-4311-875e-f0949e939d78"
+      },
+      {
+        "id": "c3606cce-78b7-4242-937d-02d3c2d76f8f",
+        "label": "B",
+        "content": "Higher CPU usage due to constant checking",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "710c4094-bea3-4311-875e-f0949e939d78"
+      },
+      {
+        "id": "a3ce1bfa-7fc1-414d-baa5-8382ab12f49b",
+        "label": "C",
+        "content": "More efficient use of processor cycles",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "710c4094-bea3-4311-875e-f0949e939d78"
+      },
+      {
+        "id": "ccd387e9-c22c-4970-9d79-47fb295d066d",
+        "label": "D",
+        "content": "Reduced control over process priorities",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "710c4094-bea3-4311-875e-f0949e939d78"
+      }
+    ]
+  },
+  {
+    "id": "a3c4600d-adfb-43cc-afb0-2ebd65d69c36",
+    "exam_id": "2b237497-80c2-4c16-a741-4fa9692924ab",
+    "order_num": 32,
+    "content": "Which I/O software layer is primarily responsible for handling device-specific details while maintaining a uniform interface for the upper layers?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-08-08T15:10:13.109001+00:00",
+    "explanation": null,
+    "question_options": [
+      {
+        "id": "4af586fc-1690-4126-ba7b-60b9e598e426",
+        "label": "A",
+        "content": "Userspace I/O libraries",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "a3c4600d-adfb-43cc-afb0-2ebd65d69c36"
+      },
+      {
+        "id": "7f00b83a-a3ba-48ee-9390-8a183f20cc96",
+        "label": "B",
+        "content": "Device drivers",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "a3c4600d-adfb-43cc-afb0-2ebd65d69c36"
+      },
+      {
+        "id": "8706f908-160e-4313-9ec5-ac94337831be",
+        "label": "C",
+        "content": "Interrupt handlers",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "a3c4600d-adfb-43cc-afb0-2ebd65d69c36"
+      },
+      {
+        "id": "2b65c61f-22ec-476c-adaf-2bb1f39330a0",
+        "label": "D",
+        "content": "Hardware controllers",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "a3c4600d-adfb-43cc-afb0-2ebd65d69c36"
+      }
+    ]
+  },
+  {
+    "id": "b3ea3d2d-6a97-432a-a25f-4d3e84c41d54",
+    "exam_id": "2b237497-80c2-4c16-a741-4fa9692924ab",
+    "order_num": 33,
+    "content": "While processing cylinder 25, new requests appear for cylinders 5, 48, 32, 50, and 12. Using the FCFS (First-Come, First-Served) scheduling algorithm, what is the total number of disk head movements?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-08-08T15:10:13.615133+00:00",
+    "explanation": null,
+    "question_options": [
+      {
+        "id": "89a33539-548c-4bac-b381-bc72141bc649",
+        "label": "A",
+        "content": "108",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "b3ea3d2d-6a97-432a-a25f-4d3e84c41d54"
+      },
+      {
+        "id": "9f4d0d40-65b6-45b9-93b0-9b7b81ab63f4",
+        "label": "B",
+        "content": "97",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "b3ea3d2d-6a97-432a-a25f-4d3e84c41d54"
+      },
+      {
+        "id": "50727509-182d-4ed7-bf04-0392a62bb83d",
+        "label": "C",
+        "content": "83",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "b3ea3d2d-6a97-432a-a25f-4d3e84c41d54"
+      },
+      {
+        "id": "9890a5e0-74d9-4b13-8984-89da6299a399",
+        "label": "D",
+        "content": "114",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "b3ea3d2d-6a97-432a-a25f-4d3e84c41d54"
+      }
+    ]
+  },
+  {
+    "id": "666502dc-d8f2-452a-bff0-ac5eaefc86ab",
+    "exam_id": "2b237497-80c2-4c16-a741-4fa9692924ab",
+    "order_num": 34,
+    "content": "What is the main function of a watchdog timer in an operating system?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-08-08T15:10:14.081506+00:00",
+    "explanation": null,
+    "question_options": [
+      {
+        "id": "f7899c16-6084-48b6-95ec-13d538b0ccb2",
+        "label": "A",
+        "content": "Measure the performance of user programs and evaluate them",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "666502dc-d8f2-452a-bff0-ac5eaefc86ab"
+      },
+      {
+        "id": "5f5cd62b-5377-4603-be4c-e5d45bd44a25",
+        "label": "B",
+        "content": "Detect system crashes and reset the system if necessary",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "666502dc-d8f2-452a-bff0-ac5eaefc86ab"
+      },
+      {
+        "id": "3b9b6fad-288d-4bb9-9039-585568c972ac",
+        "label": "C",
+        "content": "Schedule tasks to execute at predetermined real-time intervals",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "666502dc-d8f2-452a-bff0-ac5eaefc86ab"
+      },
+      {
+        "id": "921c9a6e-a490-4f8a-9600-9f6ae956911f",
+        "label": "D",
+        "content": "Manage memory allocation",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "666502dc-d8f2-452a-bff0-ac5eaefc86ab"
+      }
+    ]
+  },
+  {
+    "id": "48e79f38-baec-4a35-b1e8-9fddefec29fc",
+    "exam_id": "2b237497-80c2-4c16-a741-4fa9692924ab",
+    "order_num": 35,
+    "content": "Processes currently holding resources that were granted earlier can request new resources",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-08-08T15:10:14.576053+00:00",
+    "explanation": null,
+    "question_options": [
+      {
+        "id": "3f3bfc5c-9109-46a1-bc55-b919a012dcf8",
+        "label": "A",
+        "content": "Mutual exclusion condition",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "48e79f38-baec-4a35-b1e8-9fddefec29fc"
+      },
+      {
+        "id": "09b182a7-73bd-4288-89ae-3ca4e178e7f3",
+        "label": "B",
+        "content": "Hold-and-wait condition",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "48e79f38-baec-4a35-b1e8-9fddefec29fc"
+      },
+      {
+        "id": "6ed9840a-8572-4ba1-8639-b8b13a206d97",
+        "label": "C",
+        "content": "No-preemption condition",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "48e79f38-baec-4a35-b1e8-9fddefec29fc"
+      },
+      {
+        "id": "b1e7192b-460c-4b50-8629-beb49560f390",
+        "label": "D",
+        "content": "Circular wait condition",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "48e79f38-baec-4a35-b1e8-9fddefec29fc"
+      }
+    ]
+  },
+  {
+    "id": "9c3234b3-8f1b-4524-bf5a-f369cb494312",
+    "exam_id": "2b237497-80c2-4c16-a741-4fa9692924ab",
+    "order_num": 36,
+    "content": "A deadlock avoidance algorithm dynamically examines the to ensure that a circular wait condition can never exist.",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-08-08T15:10:15.068075+00:00",
+    "explanation": null,
+    "question_options": [
+      {
+        "id": "86ffad1b-6711-4237-9199-4a7609da6584",
+        "label": "A",
+        "content": "system storage state",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "9c3234b3-8f1b-4524-bf5a-f369cb494312"
+      },
+      {
+        "id": "7aea410a-afca-41eb-acef-c088c7c3683d",
+        "label": "B",
+        "content": "operating system",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "9c3234b3-8f1b-4524-bf5a-f369cb494312"
+      },
+      {
+        "id": "17aff7c3-469d-44f5-b279-63a3c6d115a2",
+        "label": "C",
+        "content": "resources",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "9c3234b3-8f1b-4524-bf5a-f369cb494312"
+      },
+      {
+        "id": "6489246a-8aef-4346-8708-5da3bcec66ff",
+        "label": "D",
+        "content": "resource allocation state",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "9c3234b3-8f1b-4524-bf5a-f369cb494312"
+      }
+    ]
+  },
+  {
+    "id": "2a6536f1-8b67-407f-85b8-9a3bff5c0b21",
+    "exam_id": "2b237497-80c2-4c16-a741-4fa9692924ab",
+    "order_num": 37,
+    "content": "What's a preemtable resource?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-08-08T15:10:15.555746+00:00",
+    "explanation": null,
+    "question_options": [
+      {
+        "id": "3478506b-fc76-4205-98ad-043b82158d93",
+        "label": "A",
+        "content": "The one that can be taken away from the process owning it with no il effects",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "2a6536f1-8b67-407f-85b8-9a3bff5c0b21"
+      },
+      {
+        "id": "835fd7d9-71bd-44da-9733-f1c2a8681250",
+        "label": "B",
+        "content": "The one that can be taken away from the process owning it with il effects",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "2a6536f1-8b67-407f-85b8-9a3bff5c0b21"
+      },
+      {
+        "id": "2c3c8a45-c0c2-4792-bf6c-27bdd1ab56fa",
+        "label": "C",
+        "content": "The one that can not be taken away from the process owning it with no il effects",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "2a6536f1-8b67-407f-85b8-9a3bff5c0b21"
+      },
+      {
+        "id": "3b223a90-1ed0-4538-b3e6-ec1f1a432ec6",
+        "label": "D",
+        "content": "The one that can not be taken away from the process owning it with il effects",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "2a6536f1-8b67-407f-85b8-9a3bff5c0b21"
+      }
+    ]
+  },
+  {
+    "id": "a4fffe74-b335-45e6-baee-3cd8f756d69c",
+    "exam_id": "2b237497-80c2-4c16-a741-4fa9692924ab",
+    "order_num": 38,
+    "content": "In deadclock, what is no-preemption condition?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-08-08T15:10:16.070781+00:00",
+    "explanation": null,
+    "question_options": [
+      {
+        "id": "31c31437-98a7-4b63-92bf-d6a5ece29c7e",
+        "label": "A",
+        "content": "Processes currently holding resources that were granted earlier can request new resources",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "a4fffe74-b335-45e6-baee-3cd8f756d69c"
+      },
+      {
+        "id": "3acc4318-5d9b-4d6a-9256-e8f60933ecb6",
+        "label": "B",
+        "content": "Resources previously granted cannot be forcibly taken away from a process. They must be explicitly released by the process holding them",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "a4fffe74-b335-45e6-baee-3cd8f756d69c"
+      },
+      {
+        "id": "db5d6fe3-86c4-4cd8-8dab-f59157caf163",
+        "label": "C",
+        "content": "There must be a circular list of two or more processes, each of which is waiting for a resource help by the next member of the chain",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "a4fffe74-b335-45e6-baee-3cd8f756d69c"
+      },
+      {
+        "id": "e75c2b40-26ff-42ff-bb32-837cd0009d9c",
+        "label": "D",
+        "content": "Each resource is either currently assigned to exactly one process or is available",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "a4fffe74-b335-45e6-baee-3cd8f756d69c"
+      }
+    ]
+  },
+  {
+    "id": "4051dff4-7c09-4037-8f40-e86f216f5d66",
+    "exam_id": "2b237497-80c2-4c16-a741-4fa9692924ab",
+    "order_num": 39,
+    "content": "Evaluate the role of memory virtualization in optimizing resource allocation in a virtualized environment. How does this technique impact overall system performance?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-08-08T15:10:16.675786+00:00",
+    "explanation": null,
+    "question_options": [
+      {
+        "id": "69b39669-1b04-4cf2-95e3-f5c62ad80350",
+        "label": "A",
+        "content": "It effectively isolates processes from one another, which can lead to a reduction in overall system performance due to the additional resources required for maintaining this isolation.",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "4051dff4-7c09-4037-8f40-e86f216f5d66"
+      },
+      {
+        "id": "40bfb5b6-9113-474a-8567-82d5634ef48a",
+        "label": "B",
+        "content": "It enhances resource allocation efficiency, improving system performance.",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "4051dff4-7c09-4037-8f40-e86f216f5d66"
+      },
+      {
+        "id": "c45d162f-9d2f-4130-b140-2d1c20c25711",
+        "label": "C",
+        "content": "It complicates memory management, decreasing performance.",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "4051dff4-7c09-4037-8f40-e86f216f5d66"
+      },
+      {
+        "id": "ae1ef9e8-acf4-463b-ae85-7037f2a2743b",
+        "label": "D",
+        "content": "It only impacts I/O performance, not overall system performance.",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "4051dff4-7c09-4037-8f40-e86f216f5d66"
+      }
+    ]
+  },
+  {
+    "id": "9e92b4a3-e8ab-478f-9b69-4d74c0b39dbf",
+    "exam_id": "2b237497-80c2-4c16-a741-4fa9692924ab",
+    "order_num": 40,
+    "content": "AVMM (Virtual Machine Monitor) creates the illusion of multiple (virtual) machines on the same physical hardware. What is VMM also known?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-08-08T15:10:17.133973+00:00",
+    "explanation": null,
+    "question_options": [
+      {
+        "id": "456e69a2-2921-4c81-8433-de77ce3b97cc",
+        "label": "A",
+        "content": "Hypovisor",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "9e92b4a3-e8ab-478f-9b69-4d74c0b39dbf"
+      },
+      {
+        "id": "7273aa47-a8a6-4945-bbf0-fe9a8c4e9a24",
+        "label": "B",
+        "content": "hypervisor",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "9e92b4a3-e8ab-478f-9b69-4d74c0b39dbf"
+      },
+      {
+        "id": "21728704-cdeb-4a8f-bbe8-39b008e879a0",
+        "label": "C",
+        "content": "shell",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "9e92b4a3-e8ab-478f-9b69-4d74c0b39dbf"
+      },
+      {
+        "id": "dfc997dd-13f6-4745-b512-11739511e341",
+        "label": "D",
+        "content": "console",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "9e92b4a3-e8ab-478f-9b69-4d74c0b39dbf"
+      }
+    ]
+  },
+  {
+    "id": "5d28b373-2da3-47cf-bca2-e6cbdc77235f",
+    "exam_id": "2b237497-80c2-4c16-a741-4fa9692924ab",
+    "order_num": 41,
+    "content": "Paravirtualization takes a different approach by modifying the source code of the guest operating system instead rather than performing sensitive instructions. In this context, which of the following is true?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-08-08T15:10:17.6344+00:00",
+    "explanation": null,
+    "question_options": [
+      {
+        "id": "8710820a-2646-4dcc-9276-eb5124f30a77",
+        "label": "A",
+        "content": "the paravirtualized guest executes system calls",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "5d28b373-2da3-47cf-bca2-e6cbdc77235f"
+      },
+      {
+        "id": "8ce66c5b-313d-4bee-ba24-51b7c3098578",
+        "label": "B",
+        "content": "the paravirtualized guest executes virtual calls",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "5d28b373-2da3-47cf-bca2-e6cbdc77235f"
+      },
+      {
+        "id": "965e5b91-b9e7-4cc7-9f1d-ce8b450b790d",
+        "label": "C",
+        "content": "the paravirtualized guest executes hyper calls",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "5d28b373-2da3-47cf-bca2-e6cbdc77235f"
+      },
+      {
+        "id": "4ae1f7c5-a89e-4be0-8c09-ab921ab87572",
+        "label": "D",
+        "content": "the paravirtualized guest executes Hyper commands",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "5d28b373-2da3-47cf-bca2-e6cbdc77235f"
+      }
+    ]
+  },
+  {
+    "id": "52505948-df43-4e61-8660-db3ffee7675d",
+    "exam_id": "2b237497-80c2-4c16-a741-4fa9692924ab",
+    "order_num": 42,
+    "content": "In a multiprogramming environment, if the degree of multiprogramming is increased, what will happen to CPU utilization in general?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-08-08T15:10:18.147736+00:00",
+    "explanation": null,
+    "question_options": [
+      {
+        "id": "4c8acbf7-ba19-4f3f-a6c2-576c969720de",
+        "label": "A",
+        "content": "Decrease first, then increase",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "52505948-df43-4e61-8660-db3ffee7675d"
+      },
+      {
+        "id": "b1b6a1c9-7e1a-4dec-8e11-a2345207c0fd",
+        "label": "B",
+        "content": "Increase first, then decrease",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "52505948-df43-4e61-8660-db3ffee7675d"
+      },
+      {
+        "id": "65da5ad3-0a6d-4cae-b4f3-dd269e5ce0d0",
+        "label": "C",
+        "content": "Always decrease",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "52505948-df43-4e61-8660-db3ffee7675d"
+      },
+      {
+        "id": "8dc14a60-109c-466b-ada7-d26309d3cb07",
+        "label": "D",
+        "content": "Always increase",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "52505948-df43-4e61-8660-db3ffee7675d"
+      },
+      {
+        "id": "c5d326d7-1fe1-4c5e-9952-8b47bfda5a71",
+        "label": "E",
+        "content": "Remain constant",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "52505948-df43-4e61-8660-db3ffee7675d"
+      }
+    ]
+  },
+  {
+    "id": "685946bd-943a-4303-983e-1a3691dd4baf",
+    "exam_id": "2b237497-80c2-4c16-a741-4fa9692924ab",
+    "order_num": 43,
+    "content": "What's a cache hit in CPU cache memory?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-08-08T15:10:18.614043+00:00",
+    "explanation": null,
+    "question_options": [
+      {
+        "id": "0a61970b-178a-4eaa-b003-014c16d8f5c8",
+        "label": "A",
+        "content": "When the requested data is found in the cache, avoiding access to main memory.",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "685946bd-943a-4303-983e-1a3691dd4baf"
+      },
+      {
+        "id": "4240c44d-331e-48d9-af57-d35303eaf5da",
+        "label": "B",
+        "content": "When the CPU fails to locate data in the cache and retrieves it from RAM",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "685946bd-943a-4303-983e-1a3691dd4baf"
+      },
+      {
+        "id": "b12cc1ea-6f64-4c5b-b026-2dded75eb06d",
+        "label": "C",
+        "content": "When a new cache line is added to the cache memory and collides with previously stored data.",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "685946bd-943a-4303-983e-1a3691dd4baf"
+      },
+      {
+        "id": "8ce32565-2bcb-43e4-9ea7-74051505ee80",
+        "label": "D",
+        "content": "When all cache levels are fully utilized by the CPU",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "685946bd-943a-4303-983e-1a3691dd4baf"
+      }
+    ]
+  },
+  {
+    "id": "9ed2ef7e-9a31-4ed9-a0dc-cfc8cb6d7fce",
+    "exam_id": "2b237497-80c2-4c16-a741-4fa9692924ab",
+    "order_num": 44,
+    "content": "What are the two main functions of an operating system?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-08-08T15:10:19.232693+00:00",
+    "explanation": null,
+    "question_options": [
+      {
+        "id": "f6f3f038-5a7f-44ac-87c7-504b9d53b198",
+        "label": "A",
+        "content": "Debugging and memory allocation",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "9ed2ef7e-9a31-4ed9-a0dc-cfc8cb6d7fce"
+      },
+      {
+        "id": "81a601a7-48f8-4df7-a158-03d7ddb8dbcb",
+        "label": "B",
+        "content": "Resource management and memory allocation",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "9ed2ef7e-9a31-4ed9-a0dc-cfc8cb6d7fce"
+      },
+      {
+        "id": "3a6cb43c-97a0-48ee-ba3e-477dc2fab7b3",
+        "label": "C",
+        "content": "Resource management and providing abstractions",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "9ed2ef7e-9a31-4ed9-a0dc-cfc8cb6d7fce"
+      },
+      {
+        "id": "e52a3865-25bc-4937-a513-a43621495fd3",
+        "label": "D",
+        "content": "Networking and power saving",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "9ed2ef7e-9a31-4ed9-a0dc-cfc8cb6d7fce"
+      }
+    ]
+  },
+  {
+    "id": "7fe0ac1a-21b4-4a18-99a0-09e08aa629c9",
+    "exam_id": "2b237497-80c2-4c16-a741-4fa9692924ab",
+    "order_num": 45,
+    "content": "Which of the following best describes a monolithic operating system structure?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-08-08T15:10:19.735567+00:00",
+    "explanation": null,
+    "question_options": [
+      {
+        "id": "6c4b8929-6da5-4141-ba10-1769dcb3628b",
+        "label": "A",
+        "content": "A system where all functionalities are divided into separate processes",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "7fe0ac1a-21b4-4a18-99a0-09e08aa629c9"
+      },
+      {
+        "id": "94a29c98-ae8d-42f7-a5f8-3d12b01df30d",
+        "label": "B",
+        "content": "A system where only file management is in the kernel",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "7fe0ac1a-21b4-4a18-99a0-09e08aa629c9"
+      },
+      {
+        "id": "6122e21a-b62e-47b4-bb40-8413c7b263bd",
+        "label": "C",
+        "content": "A system where all components run in supervisor mode.",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "7fe0ac1a-21b4-4a18-99a0-09e08aa629c9"
+      },
+      {
+        "id": "86517f16-b99f-42c4-9b58-d0120ad21a7f",
+        "label": "D",
+        "content": "A system where drivers are executed in user space.",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "7fe0ac1a-21b4-4a18-99a0-09e08aa629c9"
+      }
+    ]
+  },
+  {
+    "id": "223708e6-63b5-4fb7-818d-8ed3ac202e78",
+    "exam_id": "2b237497-80c2-4c16-a741-4fa9692924ab",
+    "order_num": 46,
+    "content": "Which of the following is not a benefit of segmentation in memory management?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-08-08T15:10:20.247262+00:00",
+    "explanation": null,
+    "question_options": [
+      {
+        "id": "c221170a-c333-4b08-86fe-606487c6c199",
+        "label": "A",
+        "content": "Segments grow independently without collision",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "223708e6-63b5-4fb7-818d-8ed3ac202e78"
+      },
+      {
+        "id": "07dc5ca1-8924-4d77-b361-c0a4632ec097",
+        "label": "B",
+        "content": "Programmers no longer manage memory overlays manually",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "223708e6-63b5-4fb7-818d-8ed3ac202e78"
+      },
+      {
+        "id": "2d80235c-9ca2-4ebb-a73c-bb9f12b5d919",
+        "label": "C",
+        "content": "Segments can be loaded into non-contiguous physical memory",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "223708e6-63b5-4fb7-818d-8ed3ac202e78"
+      },
+      {
+        "id": "a441eddc-977c-4260-8c8c-7d0b33dd6e52",
+        "label": "D",
+        "content": "Segment addresses automatically optimize CPU scheduling",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "223708e6-63b5-4fb7-818d-8ed3ac202e78"
+      }
+    ]
+  },
+  {
+    "id": "90cd3109-1bf3-4d90-b8b4-c09b96b70369",
+    "exam_id": "2b237497-80c2-4c16-a741-4fa9692924ab",
+    "order_num": 47,
+    "content": "A system has four processes: P1, P2, P3, P4 and three resources: RS1, RS2, RS3. The allocation and request matrices are: Allocated RS1 RS2 RS3 Requested RS1 RS2 RS3 P1 0 1 0 R1 2 0 0 P2 2 1 0 R2 1 1 1 P3 0 2 2 R3 2 1 0 P4 1 0 1 R4 0 2 1 Available resources: (1,1,1) Is the system in a safe state?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-08-08T15:10:20.746528+00:00",
+    "explanation": null,
+    "question_options": [
+      {
+        "id": "b270c42a-9349-4c76-b55a-9b36c6b39cbe",
+        "label": "A",
+        "content": "No, is unsafe",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "90cd3109-1bf3-4d90-b8b4-c09b96b70369"
+      },
+      {
+        "id": "e89c081e-b63f-4b5f-b5dc-48d11f2d38ec",
+        "label": "B",
+        "content": "Yes, its safe",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "90cd3109-1bf3-4d90-b8b4-c09b96b70369"
+      },
+      {
+        "id": "00b3ea15-27d2-421d-b293-0c8406abf631",
+        "label": "C",
+        "content": "The system is in a deadlock",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "90cd3109-1bf3-4d90-b8b4-c09b96b70369"
+      },
+      {
+        "id": "efc70f2f-bf54-4c43-a375-2cb7140b4c7e",
+        "label": "D",
+        "content": "The system experiences starvation",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "90cd3109-1bf3-4d90-b8b4-c09b96b70369"
+      }
+    ]
+  },
+  {
+    "id": "a8cc2f07-02c8-42af-923e-52033f021585",
+    "exam_id": "2b237497-80c2-4c16-a741-4fa9692924ab",
+    "order_num": 48,
+    "content": "A system has 3 types of resources (A, B, C) with total instances. A=10 B=5 C=7 The Allocation and Max for each process are: + P0: Allocation = (0, 1, 0), Max = (7, 5, 3) + P1: Allocation = (2, 0, 0), Max = (3, 2, 2) + P2: Allocation = (3, 0, 2), Max = (9, 0, 2) + P3: Allocation = (2, 1, 1), Max = (2, 2, 2) + P4: Allocation = (0, 0, 2), Max = (4, 3, 3) Which of the following is the correct safe sequence when applying the Banker's Algorithm?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-08-08T15:10:21.199937+00:00",
+    "explanation": null,
+    "question_options": [
+      {
+        "id": "b44940c8-013f-4f01-bec9-28faa1db9d28",
+        "label": "A",
+        "content": "P1—P3-P4—P0—P2",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "a8cc2f07-02c8-42af-923e-52033f021585"
+      },
+      {
+        "id": "1972db92-5614-42fc-a54e-b2e38164c617",
+        "label": "B",
+        "content": "P0>P2¬P3¬P1¬P4",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "a8cc2f07-02c8-42af-923e-52033f021585"
+      },
+      {
+        "id": "cd10350b-0a03-4c2b-9aec-94fa7e9fcdf5",
+        "label": "C",
+        "content": "PI¬P0¬P2¬P3¬P4",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "a8cc2f07-02c8-42af-923e-52033f021585"
+      },
+      {
+        "id": "7d71e915-fc18-4ee1-9cb0-9f9b2a2ddeb3",
+        "label": "D",
+        "content": "P2—P1—P0—P4—P3",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "a8cc2f07-02c8-42af-923e-52033f021585"
+      }
+    ]
+  },
+  {
+    "id": "3fda010f-df79-4c67-9c7d-257d3618feb5",
+    "exam_id": "2b237497-80c2-4c16-a741-4fa9692924ab",
+    "order_num": 49,
+    "content": "Which approach to deadlock prevention eliminates circular wait?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-08-08T15:10:21.641825+00:00",
+    "explanation": null,
+    "question_options": [
+      {
+        "id": "b066e517-c3eb-4bf8-b35b-b225cf329956",
+        "label": "A",
+        "content": "Forcing all processes to request resources in a predefined order",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "3fda010f-df79-4c67-9c7d-257d3618feb5"
+      },
+      {
+        "id": "7f8dcd48-e4a3-4f62-9835-490de7170527",
+        "label": "B",
+        "content": "Allowing processes to hold and wait for resources indefinitely",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "3fda010f-df79-4c67-9c7d-257d3618feb5"
+      },
+      {
+        "id": "84ef9ae9-61d7-426b-9403-df4524aa45e7",
+        "label": "C",
+        "content": "Preventing mutual exclusion for critical resources",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "3fda010f-df79-4c67-9c7d-257d3618feb5"
+      },
+      {
+        "id": "6876b591-3fe6-4a00-b8b3-ab8ea0788c20",
+        "label": "D",
+        "content": "Granting all resources to a process before execution begins",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "3fda010f-df79-4c67-9c7d-257d3618feb5"
+      }
+    ]
+  },
+  {
+    "id": "b6fbfd34-1377-402f-9d7a-ec07475d2e95",
+    "exam_id": "2b237497-80c2-4c16-a741-4fa9692924ab",
+    "order_num": 50,
+    "content": "In UNIX systems, what is the primary purpose of system calls like fork() and exec()?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-08-08T15:10:22.101612+00:00",
+    "explanation": null,
+    "question_options": [
+      {
+        "id": "da513ab4-2bae-44ee-93a7-40d0c69db55f",
+        "label": "A",
+        "content": "To control peripheral devices",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "b6fbfd34-1377-402f-9d7a-ec07475d2e95"
+      },
+      {
+        "id": "220b056b-092c-499d-8375-a7255059ed06",
+        "label": "B",
+        "content": "To load device drivers into memory",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "b6fbfd34-1377-402f-9d7a-ec07475d2e95"
+      },
+      {
+        "id": "8c7f7cdf-82ad-49b0-a7e2-2e06c2c26f8e",
+        "label": "C",
+        "content": "To create and execute new processes",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "b6fbfd34-1377-402f-9d7a-ec07475d2e95"
+      },
+      {
+        "id": "72aa527f-760f-4943-bb31-81d8c40a6c71",
+        "label": "D",
+        "content": "To switch between user and kernel mode",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "b6fbfd34-1377-402f-9d7a-ec07475d2e95"
+      }
+    ]
+  }
+]

@@ -1,0 +1,2382 @@
+[
+  {
+    "id": "c0fe3ea8-cc18-4b1b-b7e2-256d33116ce9",
+    "exam_id": "46d3bed6-d7e9-4923-926a-0287b4e659bf",
+    "order_num": 1,
+    "content": "(Choose 1 answer)\nWhich of the following is not a function of an operating system?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-04-30T00:16:16.786246+00:00",
+    "explanation": "- Dịch đề: Phương án nào sau đây KHÔNG phải là một chức năng của hệ điều hành?\nA. Quản lý tài nguyên\nB. Quản lý tiến trình\nC. Quản lý bộ nhớ\nD. Quản lý bóng bán dẫn (Transistors)\n- Giải thích: Hệ điều hành (Operating System) là phần mềm hệ thống đóng vai trò quản lý tài nguyên phần cứng và phần mềm của máy tính, bao gồm quản lý tài nguyên (Resource Management), quản lý tiến trình (Process Management) và quản lý bộ nhớ (Memory Management). Việc quản lý bóng bán dẫn (Transistors Management) thuộc về cấp độ thiết kế mạch điện tử và phần cứng vật lý, không phải là chức năng của phần mềm hệ điều hành. Các phương án A, B, C đều là những chức năng cốt lõi của một hệ điều hành.",
+    "question_options": [
+      {
+        "id": "5f26c0c4-4788-43a9-935a-746e34f6ac60",
+        "label": "A",
+        "content": "Resource Management",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "c0fe3ea8-cc18-4b1b-b7e2-256d33116ce9"
+      },
+      {
+        "id": "997c657b-c8ac-43f9-bdfa-108f5536ed51",
+        "label": "B",
+        "content": "Process Management",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "c0fe3ea8-cc18-4b1b-b7e2-256d33116ce9"
+      },
+      {
+        "id": "7f706047-0790-42ab-8cd0-552cc00266e2",
+        "label": "C",
+        "content": "Memory Management",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "c0fe3ea8-cc18-4b1b-b7e2-256d33116ce9"
+      },
+      {
+        "id": "f3903776-8307-41b5-bd7e-635b8ef018f8",
+        "label": "D",
+        "content": "Transistors Management",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "c0fe3ea8-cc18-4b1b-b7e2-256d33116ce9"
+      }
+    ]
+  },
+  {
+    "id": "771809ca-8503-4fe3-a561-ae52b05e605d",
+    "exam_id": "46d3bed6-d7e9-4923-926a-0287b4e659bf",
+    "order_num": 2,
+    "content": "(Choose 1 answer)\nIn what scenario would a microkernel-based operating system structure be advantageous compared to a monolithic structure?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-04-30T00:16:17.703707+00:00",
+    "explanation": "- Dịch đề: Trong kịch bản nào thì cấu trúc hệ điều hành dựa trên vi nhân (microkernel) sẽ có ưu thế hơn so với cấu trúc đơn khối (monolithic)?\nA. Khi ứng dụng người dùng cần truy cập trực tiếp vào phần cứng\nB. Khi việc cách ly giữa không gian người dùng và không gian nhân là tối quan trọng\nC. Khi phương pháp phân tầng làm phức tạp hiệu năng hệ thống\nD. Khi yêu cầu kiểm soát hệ thống tập trung\n- Giải thích: Kiến trúc vi nhân (microkernel) giữ cho nhân hệ điều hành nhỏ nhất có thể, chỉ thực hiện các nhiệm vụ cơ bản như truyền thông điệp (IPC), quản lý bộ nhớ cơ bản và lập lịch. Các dịch vụ hệ điều hành khác (trình điều khiển thiết bị, hệ thống tập tin) chạy dưới dạng các tiến trình trong không gian người dùng (user space). Điều này tạo ra sự cô lập/cách ly (isolation) cao giữa không gian người dùng và không gian nhân, giúp nâng cao tính an toàn, bảo mật và khả năng chịu lỗi (lỗi ở một trình điều khiển sẽ không làm hỏng toàn bộ kernel). Phương án A sai vì monolithic cho phép truy cập phần cứng nhanh hơn. Phương án C sai vì microkernel thường có chi phí chuyển đổi ngữ cảnh cao hơn. Phương án D sai vì monolithic thể hiện sự kiểm soát tập trung rõ rệt hơn.",
+    "question_options": [
+      {
+        "id": "d9c9aec3-a0ea-4e9c-8036-9319fb34ce57",
+        "label": "A",
+        "content": "When direct hardware access is necessary for user applications",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "771809ca-8503-4fe3-a561-ae52b05e605d"
+      },
+      {
+        "id": "be013885-11d8-42c9-8967-92817fc18a37",
+        "label": "B",
+        "content": "When isolation between user and kernel space is crucial",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "771809ca-8503-4fe3-a561-ae52b05e605d"
+      },
+      {
+        "id": "d92d1ce3-7406-404d-bced-9e0ddc66aa75",
+        "label": "C",
+        "content": "When a layered approach complicates system performance",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "771809ca-8503-4fe3-a561-ae52b05e605d"
+      },
+      {
+        "id": "a3a82c1a-282b-4f8e-846e-0ec14cb447cc",
+        "label": "D",
+        "content": "When centralized system control is required",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "771809ca-8503-4fe3-a561-ae52b05e605d"
+      }
+    ]
+  },
+  {
+    "id": "461128f2-c1c5-48bf-b59c-5210d93378e6",
+    "exam_id": "46d3bed6-d7e9-4923-926a-0287b4e659bf",
+    "order_num": 3,
+    "content": "(Choose 3 answers)\nIn Processors, the general registers used to hold variables and temporary results. What special registers that are visible to the programmer?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-04-30T00:16:18.626079+00:00",
+    "explanation": "- Dịch đề: Trong bộ xử lý, các thanh ghi chung được dùng để lưu trữ biến và kết quả tạm thời. Những thanh ghi đặc biệt nào dưới đây hiển thị (có thể truy cập được) đối với lập trình viên? (Chọn 3 đáp án)\n- Giải thích: Trong kiến trúc bộ xử lý, các thanh ghi đặc biệt hiển thị cho lập trình viên bao gồm **Program counter** (chứa địa chỉ lệnh tiếp theo), **Stack pointer** (con trỏ trỏ đến đỉnh ngăn xếp) và **PSW - Program Status Word** (chứa các cờ trạng thái CPU). Thanh ghi MAR (Memory Address Register) là thanh ghi phần cứng nội bộ của bộ nhớ và CPU, không hiển thị trực tiếp cho lập trình viên ở mức ngôn ngữ/máy.\n\n---",
+    "question_options": [
+      {
+        "id": "2215da38-1165-4d5d-9677-129f014afed8",
+        "label": "A",
+        "content": "MAR( Memory address register )",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "461128f2-c1c5-48bf-b59c-5210d93378e6"
+      },
+      {
+        "id": "b95df607-334b-4b6a-a26c-891aec13c48a",
+        "label": "B",
+        "content": "Program counter",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "461128f2-c1c5-48bf-b59c-5210d93378e6"
+      },
+      {
+        "id": "d6f46c2b-e878-4568-8e37-63452f450621",
+        "label": "C",
+        "content": "Stack pointer",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "461128f2-c1c5-48bf-b59c-5210d93378e6"
+      },
+      {
+        "id": "1f3265a1-6f69-4dae-b2c4-dd4a712b9b89",
+        "label": "D",
+        "content": "PSW ( Program Status Word )",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "461128f2-c1c5-48bf-b59c-5210d93378e6"
+      }
+    ]
+  },
+  {
+    "id": "a1313f5d-76db-471b-9c31-fc993f2be8ef",
+    "exam_id": "46d3bed6-d7e9-4923-926a-0287b4e659bf",
+    "order_num": 4,
+    "content": "(Choose 1 answer)\nWhich part of the operating system is responsible for deciding which process should run when and for how long?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-04-30T00:16:19.543729+00:00",
+    "explanation": "- Dịch đề: Thành phần nào của hệ điều hành chịu trách nhiệm quyết định tiến trình nào nên chạy, khi nào chạy và chạy trong bao lâu?\nA. Bộ lập lịch CPU\nB. Bộ lập lịch đĩa\nC. Bộ quản lý bộ nhớ\nD. Hệ thống tập tin\nE. Bộ quản lý mạng\n- Giải thích: Bộ lập lịch CPU (CPU Scheduler / Process Scheduler) chịu trách nhiệm chọn tiến trình từ hàng đợi sẵn sàng (Ready queue) để phân bổ nhân CPU, quyết định thời điểm thi hành và thời lượng (time quantum) mà tiến trình được phép chiếm giữ CPU. Phương án B quản lý các yêu cầu I/O trên đĩa. Phương án C quản lý phân bổ RAM và bộ nhớ ảo. Phương án D quản lý lưu trữ tập tin. Phương án E quản lý giao tiếp mạng.",
+    "question_options": [
+      {
+        "id": "1c34d023-ae52-4d8e-b089-3d471bdbad3c",
+        "label": "A",
+        "content": "CPU Scheduler",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "a1313f5d-76db-471b-9c31-fc993f2be8ef"
+      },
+      {
+        "id": "1896fc60-5d1e-4ff8-950e-40540b6cddeb",
+        "label": "B",
+        "content": "Disk Scheduler",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "a1313f5d-76db-471b-9c31-fc993f2be8ef"
+      },
+      {
+        "id": "2ee92848-3e2f-4d97-8dce-3be32c24d00c",
+        "label": "C",
+        "content": "Memory Manager",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "a1313f5d-76db-471b-9c31-fc993f2be8ef"
+      },
+      {
+        "id": "6f257584-b8dc-4746-9074-08032e154d30",
+        "label": "D",
+        "content": "File System",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "a1313f5d-76db-471b-9c31-fc993f2be8ef"
+      },
+      {
+        "id": "984c46cf-a708-4759-abef-39782458dac5",
+        "label": "E",
+        "content": "Network Manager",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "a1313f5d-76db-471b-9c31-fc993f2be8ef"
+      }
+    ]
+  },
+  {
+    "id": "06321fbe-663a-40ec-a0d5-91fc8da9f77c",
+    "exam_id": "46d3bed6-d7e9-4923-926a-0287b4e659bf",
+    "order_num": 5,
+    "content": "(Choose 1 answer)\nIn I/O Devices, the software that talks to a controller, giving it commands and accepting responses, is called ______.",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-04-30T00:16:20.565153+00:00",
+    "explanation": "- Dịch đề: Trong các thiết bị Vào/Ra (I/O), phần mềm trực tiếp giao tiếp với bộ điều khiển (controller), gửi các câu lệnh và tiếp nhận phản hồi được gọi là ______.\nA. Trình điều khiển thiết bị (device driver)\nB. DMA (Truy cập bộ nhớ trực tiếp)\nC. Giao diện thiết bị (device interface)\nD. Ngắt (interrupt)\n- Giải thích: Trình điều khiển thiết bị (Device Driver) là lớp phần mềm phụ thuộc thiết bị, giao tiếp trực tiếp với bộ điều khiển phần cứng (Device Controller) bằng cách ghi các câu lệnh vào thanh ghi của controller và nhận phản hồi/trạng thái từ thiết bị. DMA là cơ chế phần cứng truyền dữ liệu trực tiếp vào RAM. Device interface là chuẩn kết nối phần cứng/phần mềm chung. Interrupt là tín hiệu báo sự kiện cần xử lý cho CPU.",
+    "question_options": [
+      {
+        "id": "3aeafb5b-63c7-4fde-8af6-a3bad3ba6aa8",
+        "label": "A",
+        "content": "device driver",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "06321fbe-663a-40ec-a0d5-91fc8da9f77c"
+      },
+      {
+        "id": "ad4e1e0c-f14f-44cf-807c-14ed6ee0fe8c",
+        "label": "B",
+        "content": "DMA",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "06321fbe-663a-40ec-a0d5-91fc8da9f77c"
+      },
+      {
+        "id": "f65e3796-9216-4f85-8f0a-4164846d111a",
+        "label": "C",
+        "content": "device interface",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "06321fbe-663a-40ec-a0d5-91fc8da9f77c"
+      },
+      {
+        "id": "aeab3c1e-7240-4a27-97bb-1e94f052f62e",
+        "label": "D",
+        "content": "interrupt",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "06321fbe-663a-40ec-a0d5-91fc8da9f77c"
+      }
+    ]
+  },
+  {
+    "id": "205dbe05-3a3e-4b42-afde-f226fe4a9e0e",
+    "exam_id": "46d3bed6-d7e9-4923-926a-0287b4e659bf",
+    "order_num": 6,
+    "content": "(Choose 1 answer)\nWhich of the following is NOT a common type of system call?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-04-30T00:16:21.384871+00:00",
+    "explanation": "- Dịch đề: Loại nào sau đây KHÔNG phải là một nhóm lời gọi hệ thống (system call) phổ biến?\nA. Quản lý tiến trình\nB. Quản lý tập tin\nC. Giao diện người dùng\nD. Truyền thông / Giao tiếp\n- Giải thích: Lời gọi hệ thống (System Call) cung cấp giao diện lập trình giữa chương trình người dùng và kernel. Các nhóm system call chính gồm: Quản lý tiến trình (Process Control), Quản lý tập tin (File Management), Quản lý thiết bị (Device Management), Duy trì thông tin (Information Maintenance), Truyền thông (Communication) và Bảo vệ (Protection). Giao diện người dùng (User Interface - như Shell, CLI, GUI) là chương trình ứng dụng chạy ở cấp độ người dùng, không phải là một loại lời gọi hệ thống.",
+    "question_options": [
+      {
+        "id": "68df47b2-b4fa-47ea-b1ea-98611054ea27",
+        "label": "A",
+        "content": "Process Control",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "205dbe05-3a3e-4b42-afde-f226fe4a9e0e"
+      },
+      {
+        "id": "60d2ba3d-39f7-44cd-b3f9-145cc8a2875d",
+        "label": "B",
+        "content": "File Management",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "205dbe05-3a3e-4b42-afde-f226fe4a9e0e"
+      },
+      {
+        "id": "282b9fcc-a009-4aa7-b6ae-9236f35f2e13",
+        "label": "C",
+        "content": "User Interface",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "205dbe05-3a3e-4b42-afde-f226fe4a9e0e"
+      },
+      {
+        "id": "b6bc1d04-b7bf-4485-8fc3-df76b2396919",
+        "label": "D",
+        "content": "Communication",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "205dbe05-3a3e-4b42-afde-f226fe4a9e0e"
+      }
+    ]
+  },
+  {
+    "id": "b32fd747-2dbf-4e6c-b2f9-898cc6d40255",
+    "exam_id": "46d3bed6-d7e9-4923-926a-0287b4e659bf",
+    "order_num": 7,
+    "content": "(Choose 1 answer)\nWhich statement is false about operating systems?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-04-30T00:16:22.226615+00:00",
+    "explanation": "- Dịch đề: Phát biểu nào sau đây là SAI khi nói về hệ điều hành?\nA. Hệ điều hành là một loại phần mềm hệ thống\nB. Hệ điều hành là một loại ứng dụng (application)\nC. Hệ điều hành đóng vai trò như một máy mở rộng (Extended Machine)\nD. Hệ điều hành đóng vai trò như một bộ quản lý tài nguyên (Resource Manager)\n- Giải thích: Hệ điều hành là phần mềm hệ thống (System Software) quản lý phần cứng và cung cấp môi trường cho các chương trình ứng dụng (Applications) hoạt động. Do đó, phát biểu \"Hệ điều hành là một loại ứng dụng\" là sai. Các phát biểu còn lại đều đúng: OS là phần mềm hệ thống, OS ẩn đi sự phức tạp của phần cứng để tạo ra một máy mở rộng/máy ảo (Extended Machine), và OS quản lý, phân bổ tài nguyên hệ thống (Resource Manager).",
+    "question_options": [
+      {
+        "id": "008e2796-afb3-4e4c-b158-85bd7731b79c",
+        "label": "A",
+        "content": "Operating System a type of system software",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "b32fd747-2dbf-4e6c-b2f9-898cc6d40255"
+      },
+      {
+        "id": "9ece59f4-ff3a-4bf9-94d9-b27b51e0d673",
+        "label": "B",
+        "content": "Operating System a type of application",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "b32fd747-2dbf-4e6c-b2f9-898cc6d40255"
+      },
+      {
+        "id": "8d9b7396-68d1-43ee-9d19-4c27c39f82bc",
+        "label": "C",
+        "content": "The Operating System as an Extended Machine",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "b32fd747-2dbf-4e6c-b2f9-898cc6d40255"
+      },
+      {
+        "id": "81b3afe9-5f87-430a-b940-b20e2fcb41ae",
+        "label": "D",
+        "content": "The Operating System as a Resource Manager",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "b32fd747-2dbf-4e6c-b2f9-898cc6d40255"
+      }
+    ]
+  },
+  {
+    "id": "db898185-0366-441e-8a36-dd317602f553",
+    "exam_id": "46d3bed6-d7e9-4923-926a-0287b4e659bf",
+    "order_num": 8,
+    "content": "(Choose 1 answer)\nIf a system requires efficient process handling and termination-related operations, which group of system calls would be essential?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-04-30T00:16:23.420506+00:00",
+    "explanation": "- Dịch đề: Nếu một hệ thống yêu cầu xử lý tiến trình hiệu quả và các thao tác liên quan đến kết thúc tiến trình, nhóm lời gọi hệ thống nào sẽ là thiết yếu?\nA. Tạo và kết thúc tiến trình\nB. Đọc và ghi tập tin\nC. Quản lý thư mục\nD. Các lời gọi hệ thống hỗn hợp\n- Giải thích: Nhóm lời gọi hệ thống quản lý tiến trình (như `fork()`, `exec()`, `exit()`, `waitpid()`) trực tiếp chịu trách nhiệm cho việc khởi tạo, điều khiển và kết thúc các tiến trình trong hệ thống. Đọc/ghi tập tin thuộc nhóm quản lý tập tin. Quản lý thư mục thuộc nhóm quản lý hệ thống tập tin.",
+    "question_options": [
+      {
+        "id": "986e86a4-07a8-4445-8095-d7ac7139ada5",
+        "label": "A",
+        "content": "Process creation and termination",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "db898185-0366-441e-8a36-dd317602f553"
+      },
+      {
+        "id": "3dac379a-6ded-40df-8a7c-0643f540c157",
+        "label": "B",
+        "content": "File reading and writing",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "db898185-0366-441e-8a36-dd317602f553"
+      },
+      {
+        "id": "2b855d9c-c230-4179-9c30-4f5240623033",
+        "label": "C",
+        "content": "Directory management",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "db898185-0366-441e-8a36-dd317602f553"
+      },
+      {
+        "id": "ec8896a1-9195-480d-af2d-6a0ed42df007",
+        "label": "D",
+        "content": "Miscellaneous system calls",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "db898185-0366-441e-8a36-dd317602f553"
+      }
+    ]
+  },
+  {
+    "id": "790babdc-7513-4cd4-b6e1-ce74769721ff",
+    "exam_id": "46d3bed6-d7e9-4923-926a-0287b4e659bf",
+    "order_num": 9,
+    "content": "(Choose 1 answer)\nCompare and contrast the implementations of threads in user space and in the kernel, highlighting their advantages and disadvantages.",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-04-30T00:16:24.359554+00:00",
+    "explanation": "- Dịch đề: So sánh và đối chiếu việc cài đặt luồng trong không gian người dùng (user space) và trong nhân (kernel), làm nổi bật ưu điểm và nhược điểm của chúng.\nA. Luồng trong không gian người dùng cung cấp việc chuyển đổi ngữ cảnh nhanh hơn, trong khi luồng nhân có khả năng quản lý và chuyển đổi trực tiếp bởi nhân với quyền truy cập tài nguyên hệ thống.\nB. Luồng nhân cung cấp các cơ chế đồng bộ hóa tốt hơn so with luồng người dùng.\nC. Luồng người dùng cho phép hiệu năng đa nhiệm tốt hơn, trong khi luồng nhân dễ bị bế tắc hơn.\nD. Luồng người dùng có quyền truy cập hạn chế vào tài nguyên hệ thống, trong khi luồng nhân có thể quản lý hiệu quả các thao tác I/O.\n- Giải thích: Luồng ở cấp người dùng (User-space threads) được quản lý hoàn toàn bởi thư viện luồng ở user space mà không cần chuyển đổi sang kernel mode, giúp việc chuyển đổi ngữ cảnh (context switching) diễn ra rất nhanh chóng. Ngược lại, luồng ở cấp nhân (Kernel-space threads) do kernel trực tiếp lập lịch và quản lý, cho phép tận dụng nhiều nhân CPU và xử lý ngắt/I/O tốt hơn mà không làm khóa toàn bộ tiến trình khi một luồng bị block. Các phương án B, C, D đưa ra các so sánh không chính xác so với lý thuyết tổng quan về luồng.",
+    "question_options": [
+      {
+        "id": "ebfd5224-1bd1-48f3-be03-1643af9be644",
+        "label": "A",
+        "content": "Threads in user space offer faster context switching, whereas kernel threads have direct access to hardware resources.",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "790babdc-7513-4cd4-b6e1-ce74769721ff"
+      },
+      {
+        "id": "905f9135-6e5e-4776-bb34-f5b9a6172af6",
+        "label": "B",
+        "content": "Kernel threads provide better synchronization mechanisms compared to user space threads.",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "790babdc-7513-4cd4-b6e1-ce74769721ff"
+      },
+      {
+        "id": "e2f4b04a-5f6e-40e4-9f17-da4c2f3fdbd5",
+        "label": "C",
+        "content": "User space threads allow for better multitasking performance, while kernel threads are more prone to deadlocks.",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "790babdc-7513-4cd4-b6e1-ce74769721ff"
+      },
+      {
+        "id": "1c0935ec-9cbe-4e49-9941-c04218e6fcbb",
+        "label": "D",
+        "content": "User space threads have limited access to system resources, whereas kernel threads can efficiently manage I/O operations.",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "790babdc-7513-4cd4-b6e1-ce74769721ff"
+      }
+    ]
+  },
+  {
+    "id": "95f94cb2-f5c0-45d4-a801-72f5e5650a11",
+    "exam_id": "46d3bed6-d7e9-4923-926a-0287b4e659bf",
+    "order_num": 10,
+    "content": "(Choose 1 answer)\nWhich of the following algorithms operates in preemptive scheme only in batch system?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-04-30T00:16:25.377024+00:00",
+    "explanation": "- Dịch đề: Thuật toán nào sau đây hoạt động theo cơ chế trưng dụng CPU (preemptive scheme)?\nA. Đến trước phục vụ trước (First Come First Served)\nB. Công việc ngắn nhất trước (Shortest Job First)\nC. Luân phiên theo lượt (Round Robin)\nD. Theo độ ưu tiên (Priority)\n- Giải thích: Thuật toán Round Robin (RR) phân chia thời gian sử dụng CPU thành các định lượng thời gian (time quantum). Khi tiến trình đang chạy hết suất thời gian, bộ lập lịch sẽ cướp/trưng dụng CPU (preempt) để chuyển cho tiến trình khác. Đây là thuật toán điển hình hoạt động hoàn toàn theo cơ chế trưng dụng CPU (preemptive scheme). Thuật toán FCFS và SJF tiêu chuẩn là các thuật toán không trưng dụng (non-preemptive). Priority scheduling có thể áp dụng cả hai cơ chế tùy thuộc vào cấu hình hệ thống.",
+    "question_options": [
+      {
+        "id": "5de78e65-0250-46bc-ad82-2e1fa5f80b14",
+        "label": "A",
+        "content": "First Come First Served",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "95f94cb2-f5c0-45d4-a801-72f5e5650a11"
+      },
+      {
+        "id": "a8abef89-03f9-494f-bc60-f588a211cf06",
+        "label": "B",
+        "content": "Shortest Job First",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "95f94cb2-f5c0-45d4-a801-72f5e5650a11"
+      },
+      {
+        "id": "a22bdb58-7bfd-4469-94e9-4812f5c081cf",
+        "label": "C",
+        "content": "Round Robin",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "95f94cb2-f5c0-45d4-a801-72f5e5650a11"
+      },
+      {
+        "id": "27839aba-fe87-4d1f-8acd-ea7eb713a086",
+        "label": "D",
+        "content": "Priority",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "95f94cb2-f5c0-45d4-a801-72f5e5650a11"
+      }
+    ]
+  },
+  {
+    "id": "69d18ad4-4b0c-487e-ac33-4b7e0d589db5",
+    "exam_id": "46d3bed6-d7e9-4923-926a-0287b4e659bf",
+    "order_num": 11,
+    "content": "(Choose 1 answer)\nWhat is Interprocess communication?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-04-30T00:16:26.308999+00:00",
+    "explanation": "- Dịch đề: Giao tiếp giữa các tiến trình (Interprocess communication - IPC) là gì?\n- Giải thích: **Interprocess communication (IPC)** là cơ chế cho phép các tiến trình trao đổi thông tin (communicate) và đồng bộ hóa (synchronize) các hoạt động với nhau. Phương án A sai vì các tiến trình có thể nằm trên các không gian địa chỉ độc lập (hoặc các máy khác nhau).\n\n---",
+    "question_options": [
+      {
+        "id": "217616a8-44e1-4eff-872a-d21c5d9618c6",
+        "label": "A",
+        "content": "allows processes to communicate and synchronize their actions when using the same address space",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "69d18ad4-4b0c-487e-ac33-4b7e0d589db5"
+      },
+      {
+        "id": "93823033-04b2-4001-a58c-8bb4f1ca71e4",
+        "label": "B",
+        "content": "allows processes to communicate and synchronize their actions",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "69d18ad4-4b0c-487e-ac33-4b7e0d589db5"
+      },
+      {
+        "id": "6d3ae91c-e662-454f-a97d-e98fccb556cd",
+        "label": "C",
+        "content": "allows the processes only to synchronize their actions without communication",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "69d18ad4-4b0c-487e-ac33-4b7e0d589db5"
+      },
+      {
+        "id": "8952d756-0782-4530-af21-0118e8187598",
+        "label": "D",
+        "content": "allows the processes only to communicate their actions without synchronizing",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "69d18ad4-4b0c-487e-ac33-4b7e0d589db5"
+      }
+    ]
+  },
+  {
+    "id": "f9f4cacc-f3fc-420f-b20d-b1acf9ffab9b",
+    "exam_id": "46d3bed6-d7e9-4923-926a-0287b4e659bf",
+    "order_num": 12,
+    "content": "(Choose 1 answer)\nExample of First-Come, First-Served (FCFS) Scheduling:\nSuppose that the processes arrive in the order: \\\\(P_2, P_3, P_1\\\\).\nCalculate Average waiting time of the processes with the following burst time:\nBurst Time of \\\\(P_1\\\\) process: 24\nBurst Time of \\\\(P_2\\\\) process: 3\nBurst Time of \\\\(P_3\\\\) process: 3",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-04-30T00:16:27.329961+00:00",
+    "explanation": "- Dịch đề: Ví dụ về thuật toán lập lịch FCFS: Giả sử các tiến trình đến theo thứ tự \\\\(P_2, P_3, P_1\\\\). Tính thời gian chờ trung bình của các tiến trình với Burst Time tương ứng của \\\\(P_1 = 24\\\\), \\\\(P_2 = 3\\\\), \\\\(P_3 = 3\\\\).\n- Giải thích: Theo thuật toán FCFS:\n- Tiến trình \\\\(P_2\\\\) chạy đầu tiên (thời điểm 0), thời gian chờ = \\\\(0\\\\).\n- Tiến trình \\\\(P_3\\\\) chờ \\\\(P_2\\\\) hoàn thành, thời gian chờ = \\\\(3\\\\).\n- Tiến trình \\\\(P_1\\\\) chờ \\\\(P_2\\\\) và \\\\(P_3\\\\) hoàn thành, thời gian chờ = \\\\(3 + 3 = 6\\\\).\n- Tổng thời gian chờ = \\\\(0 + 3 + 6 = 9\\\\).\n- Thời gian chờ trung bình = \\\\(\\frac{9}{3} = 3\\\\).\n\n---",
+    "question_options": [
+      {
+        "id": "eac58c1a-9082-446d-91a2-1ff461170b31",
+        "label": "A",
+        "content": "3",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "f9f4cacc-f3fc-420f-b20d-b1acf9ffab9b"
+      },
+      {
+        "id": "c8c80883-ad25-426b-bcab-6c3eca152ceb",
+        "label": "B",
+        "content": "30",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "f9f4cacc-f3fc-420f-b20d-b1acf9ffab9b"
+      },
+      {
+        "id": "dec45a7d-b1ba-4961-aaf4-b763ff6404f5",
+        "label": "C",
+        "content": "27",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "f9f4cacc-f3fc-420f-b20d-b1acf9ffab9b"
+      },
+      {
+        "id": "74d0486e-3544-47c9-9211-efc2d84ee390",
+        "label": "D",
+        "content": "9",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "f9f4cacc-f3fc-420f-b20d-b1acf9ffab9b"
+      },
+      {
+        "id": "2439de6b-c700-4c5c-9936-49444ac93bac",
+        "label": "E",
+        "content": "6",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "f9f4cacc-f3fc-420f-b20d-b1acf9ffab9b"
+      },
+      {
+        "id": "b1b678b6-ce5b-40ee-9bbc-25fc8ea5f93a",
+        "label": "F",
+        "content": "2",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "f9f4cacc-f3fc-420f-b20d-b1acf9ffab9b"
+      }
+    ]
+  },
+  {
+    "id": "ae855055-bc15-42b0-83d4-e0f8d6188d29",
+    "exam_id": "46d3bed6-d7e9-4923-926a-0287b4e659bf",
+    "order_num": 13,
+    "content": "(Choose 1 answer)\nWhat triggers a transition from the \"Blocked state\" to the \"Ready state\"?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-04-30T00:16:28.073969+00:00",
+    "explanation": "- Dịch đề: Điều gì kích hoạt sự chuyển trạng thái từ \"Blocked\" (bị chặn) sang \"Ready\" (sẵn sàng)?\n- Giải thích: Một tiến trình chuyển sang trạng thái Blocked khi chờ một sự kiện bên ngoài (như hoàn tất đọc/ghi I/O). Khi thao tác I/O hoàn thành (Completion of an I/O operation) hoặc dữ liệu đã có sẵn, hệ thống sẽ chuyển tiến trình từ trạng thái Blocked sang trạng thái Ready để chờ bộ lập lịch cấp CPU.\n\n---",
+    "question_options": [
+      {
+        "id": "7ff4e0bb-10b7-4b73-8ed4-06feb869880a",
+        "label": "A",
+        "content": "Completion of an I/O operation",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "ae855055-bc15-42b0-83d4-e0f8d6188d29"
+      },
+      {
+        "id": "ea6944b7-3d96-4aeb-862d-048b51ce1d91",
+        "label": "B",
+        "content": "User input request",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "ae855055-bc15-42b0-83d4-e0f8d6188d29"
+      },
+      {
+        "id": "d3e7566b-775a-4b1b-b7a1-507f51475d5e",
+        "label": "C",
+        "content": "Process termination",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "ae855055-bc15-42b0-83d4-e0f8d6188d29"
+      },
+      {
+        "id": "d1fcde31-3ed2-4eee-8b16-9cc0d62e1c01",
+        "label": "D",
+        "content": "CPU scheduler selection",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "ae855055-bc15-42b0-83d4-e0f8d6188d29"
+      }
+    ]
+  },
+  {
+    "id": "773a37ba-90ea-4dbf-a54f-fb3565b4d35d",
+    "exam_id": "46d3bed6-d7e9-4923-926a-0287b4e659bf",
+    "order_num": 14,
+    "content": "(Choose 1 answer)\nWhen threads are managed in user space, what does each process need to track the threads within that process?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-04-30T00:16:28.85453+00:00",
+    "explanation": "- Dịch đề: Khi các luồng (threads) được quản lý trong không gian người dùng (user space), mỗi tiến trình cần gì để theo dõi các luồng bên trong tiến trình đó?\n- Giải thích: Trong mô hình User-Level Threads, hệ thống thời gian chạy (run-time system) nằm ở không gian người dùng duy trì một **Thread table** riêng cho mỗi tiến trình để quản lý trạng thái, con trỏ lệnh và ngăn xếp của từng luồng.\n\n---",
+    "question_options": [
+      {
+        "id": "7946d18e-2f7f-4e1d-9fc9-529d21c06424",
+        "label": "A",
+        "content": "User space table",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "773a37ba-90ea-4dbf-a54f-fb3565b4d35d"
+      },
+      {
+        "id": "ff8a98bb-8307-4ef8-b877-67632cb31f2d",
+        "label": "B",
+        "content": "Kernel table",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "773a37ba-90ea-4dbf-a54f-fb3565b4d35d"
+      },
+      {
+        "id": "2604a7b3-6cf4-416d-9ba1-059adb7d53a4",
+        "label": "C",
+        "content": "Thread table",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "773a37ba-90ea-4dbf-a54f-fb3565b4d35d"
+      },
+      {
+        "id": "d23953d1-ecc4-4624-a884-5b42b356e1fa",
+        "label": "D",
+        "content": "Process table",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "773a37ba-90ea-4dbf-a54f-fb3565b4d35d"
+      }
+    ]
+  },
+  {
+    "id": "6644cbd5-67af-4678-9bab-77e318236015",
+    "exam_id": "46d3bed6-d7e9-4923-926a-0287b4e659bf",
+    "order_num": 15,
+    "content": "(Choose 1 answer)\nMessage passing system allows processes to ______",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-04-30T00:16:29.774638+00:00",
+    "explanation": "- Dịch đề: Hệ thống truyền thông điệp (Message passing system) cho phép các tiến trình ______\n- Giải thích: Cơ chế truyền thông điệp cho phép các tiến trình trao đổi thông tin và dữ liệu với nhau mà **không cần chia sẻ chung không gian địa chỉ** (address space) hay bộ nhớ dùng chung, rất phù hợp cho cả hệ thống đơn máy và hệ thống phân tán [9-12].\n\n---",
+    "question_options": [
+      {
+        "id": "35ae5fc8-d139-474a-aa9b-f79fb840c9ac",
+        "label": "A",
+        "content": "communicate with each other without sharing the same address space",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "6644cbd5-67af-4678-9bab-77e318236015"
+      },
+      {
+        "id": "633d7b0f-3dd4-4be2-9dcd-a3862daae3ae",
+        "label": "B",
+        "content": "communicate with one another by resorting to shared data",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "6644cbd5-67af-4678-9bab-77e318236015"
+      },
+      {
+        "id": "5e294556-3207-40f1-9a4a-dbd49e81f831",
+        "label": "C",
+        "content": "share data",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "6644cbd5-67af-4678-9bab-77e318236015"
+      },
+      {
+        "id": "5a15e313-3098-4b72-98d9-16be0e0840f4",
+        "label": "D",
+        "content": "name the recipient or sender of the message",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "6644cbd5-67af-4678-9bab-77e318236015"
+      }
+    ]
+  },
+  {
+    "id": "08f15b2e-99ed-47f8-962f-21d6cf267771",
+    "exam_id": "46d3bed6-d7e9-4923-926a-0287b4e659bf",
+    "order_num": 16,
+    "content": "(Choose 1 answer)\nWhich scheduling algorithm allocates the CPU first to the process that requests the CPU first?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-04-30T00:16:30.60124+00:00",
+    "explanation": "- Dịch đề: Thuật toán lập lịch nào cấp phát CPU trước cho tiến trình yêu cầu CPU trước?\n- Giải thích: Thuật toán **First-Come, First-Served (FCFS)** quản lý hàng chờ theo cơ chế FIFO, tiến trình nào đến và yêu cầu CPU trước sẽ được cấp CPU trước.\n\n---",
+    "question_options": [
+      {
+        "id": "5bcb1ec9-67ed-449e-92c2-6109acc5a277",
+        "label": "A",
+        "content": "First-come, first-served scheduling",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "08f15b2e-99ed-47f8-962f-21d6cf267771"
+      },
+      {
+        "id": "fc859468-f17f-4037-bd74-deeb258f1899",
+        "label": "B",
+        "content": "Shortest job scheduling",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "08f15b2e-99ed-47f8-962f-21d6cf267771"
+      },
+      {
+        "id": "b4b9bacf-dfb9-4c5a-ac55-60fafe8df69d",
+        "label": "C",
+        "content": "Priority scheduling",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "08f15b2e-99ed-47f8-962f-21d6cf267771"
+      },
+      {
+        "id": "8b415ae9-cfe3-40bd-abce-91d486c54de0",
+        "label": "D",
+        "content": "Multi-level queue",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "08f15b2e-99ed-47f8-962f-21d6cf267771"
+      }
+    ]
+  },
+  {
+    "id": "8fad0c4d-c4fe-4a9c-8759-51f10b269ab8",
+    "exam_id": "46d3bed6-d7e9-4923-926a-0287b4e659bf",
+    "order_num": 17,
+    "content": "(Choose 1 answer)\nExample of First-Come, First-Served (FCFS) Scheduling:\nSuppose that the processes arrive in the order: \\\\(P_2, P_3, P_1\\\\).\nCalculate Average waiting time of the processes with the following burst time:\nBurst Time of \\\\(P_1\\\\) process: \\\\(24\\\\)\nBurst Time of \\\\(P_2\\\\) process: \\\\(3\\\\)\nBurst Time of \\\\(P_3\\\\) process: \\\\(3\\\\)",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-04-30T00:16:31.522781+00:00",
+    "explanation": "- Dịch đề: Ví dụ về thuật toán lập lịch FCFS: Giả sử các tiến trình đến theo thứ tự \\\\(P_2, P_3, P_1\\\\). Tính thời gian chờ trung bình của các tiến trình với Burst Time tương ứng của \\\\(P_1 = 24\\\\), \\\\(P_2 = 3\\\\), \\\\(P_3 = 3\\\\).\n- Giải thích: Các bước tính tương tự",
+    "question_options": [
+      {
+        "id": "0f91830d-1ca3-42ca-a0cf-ef8ef26efd66",
+        "label": "A",
+        "content": "3",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "8fad0c4d-c4fe-4a9c-8759-51f10b269ab8"
+      },
+      {
+        "id": "2a1e87d3-96cd-43cf-84b2-db098e9e1a27",
+        "label": "B",
+        "content": "30",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "8fad0c4d-c4fe-4a9c-8759-51f10b269ab8"
+      },
+      {
+        "id": "792fe8a8-a6a6-4a43-a45d-65589050c194",
+        "label": "C",
+        "content": "27",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "8fad0c4d-c4fe-4a9c-8759-51f10b269ab8"
+      },
+      {
+        "id": "d6f7a749-afc3-48fd-88f9-db99cdf2264a",
+        "label": "D",
+        "content": "9",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "8fad0c4d-c4fe-4a9c-8759-51f10b269ab8"
+      },
+      {
+        "id": "b5fde4c4-3853-412a-8678-2ccee68569e1",
+        "label": "E",
+        "content": "6",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "8fad0c4d-c4fe-4a9c-8759-51f10b269ab8"
+      },
+      {
+        "id": "e27676fe-7da7-48d0-849d-976a2c75df12",
+        "label": "F",
+        "content": "2",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "8fad0c4d-c4fe-4a9c-8759-51f10b269ab8"
+      }
+    ]
+  },
+  {
+    "id": "d9e8e033-b8c3-4c1a-9279-c3d4eab3ef5e",
+    "exam_id": "46d3bed6-d7e9-4923-926a-0287b4e659bf",
+    "order_num": 18,
+    "content": "(Choose 1 answer)\nCritically assess the role of interprocess communication primitives in solving synchronization problems, highlighting their impact on system stability and performance.",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-04-30T00:16:32.543942+00:00",
+    "explanation": "- Dịch đề: Đánh giá tầm quan trọng của các nguyên mẫu giao tiếp liên tiến trình (IPC) trong việc giải quyết các bài toán đồng bộ hóa, làm nổi bật ảnh hưởng của chúng đối với sự ổn định và hiệu năng hệ thống.\n- Giải thích: Mặc dù các nguyên mẫu IPC giải quyết tốt các vấn đề đồng bộ hóa và điều kiện tranh chấp (race conditions), việc áp dụng chúng có thể làm phát sinh chi phí quản lý (overhead) từ việc chờ khóa, chuyển đổi ngữ cảnh cũng như các thách thức về khả năng mở rộng (scalability), qua đó ảnh hưởng đến hiệu năng chung của hệ thống [1-3].\n\n---",
+    "question_options": [
+      {
+        "id": "6317882d-232d-4a69-bba6-d23124e0e3a4",
+        "label": "A",
+        "content": "Interprocess communication primitives significantly improve system stability by eliminating all potential deadlock scenarios.",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "d9e8e033-b8c3-4c1a-9279-c3d4eab3ef5e"
+      },
+      {
+        "id": "6dec1363-3e79-44a3-8928-203bf23a92d1",
+        "label": "B",
+        "content": "While interprocess communication primitives address synchronization issues, they might introduce overhead and scalability challenges, affecting system performance.",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "d9e8e033-b8c3-4c1a-9279-c3d4eab3ef5e"
+      },
+      {
+        "id": "64e004d0-6bc9-41a1-9829-cc2ec92e61b5",
+        "label": "C",
+        "content": "Interprocess communication primitives have minimal impact on system stability but greatly enhance performance by reducing context switching.",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "d9e8e033-b8c3-4c1a-9279-c3d4eab3ef5e"
+      },
+      {
+        "id": "290055de-7039-46e4-82ee-487706423e51",
+        "label": "D",
+        "content": "The usage of interprocess communication primitives enhances system scalability without any performance trade-offs.",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "d9e8e033-b8c3-4c1a-9279-c3d4eab3ef5e"
+      }
+    ]
+  },
+  {
+    "id": "28777901-970a-43c9-92bf-4fb58f2d3670",
+    "exam_id": "46d3bed6-d7e9-4923-926a-0287b4e659bf",
+    "order_num": 19,
+    "content": "(Choose 4 answers)\nIn processes, what are the four main events that cause processes to be created? (Choose four correct answers)",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-04-30T00:16:33.453571+00:00",
+    "explanation": "- Dịch đề: Trong quản lý tiến trình, 4 sự kiện chính nào dẫn đến việc khởi tạo một tiến trình mới? (Chọn 4 đáp án đúng)\n- Giải thích: Theo lý thuyết hệ điều hành, 4 sự kiện chính tạo nên một tiến trình mới gồm: **khởi tạo hệ thống** (System initialization), **thực thi lời gọi hệ thống tạo tiến trình** từ một tiến trình đang chạy (Execution of a process-creation system call), **yêu cầu tạo tiến trình mới từ người dùng** (A user request to create a new process), và **việc bắt đầu một công việc theo lô** (Initiation of a batch job).\n\n---",
+    "question_options": [
+      {
+        "id": "c2a3e309-222e-4a38-8b08-d9b33ce2ef84",
+        "label": "A",
+        "content": "System initialization.",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "28777901-970a-43c9-92bf-4fb58f2d3670"
+      },
+      {
+        "id": "bfe0aa6c-c1ef-4fba-ba35-cf3e05b473f7",
+        "label": "B",
+        "content": "Execution of a process-creation system call by a running process.",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "28777901-970a-43c9-92bf-4fb58f2d3670"
+      },
+      {
+        "id": "1dcc44ce-190f-4dfe-9953-6269732f721d",
+        "label": "C",
+        "content": "System that interacts with (human) users and perform work for them.",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "28777901-970a-43c9-92bf-4fb58f2d3670"
+      },
+      {
+        "id": "8ec433c1-ed74-4cbb-a96e-649ba9195e90",
+        "label": "D",
+        "content": "A user request to create a new process.",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "28777901-970a-43c9-92bf-4fb58f2d3670"
+      },
+      {
+        "id": "bf783015-d004-42ed-b349-63863c1fd572",
+        "label": "E",
+        "content": "Initiation of a batch job.",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "28777901-970a-43c9-92bf-4fb58f2d3670"
+      }
+    ]
+  },
+  {
+    "id": "79b577e1-a077-45b6-a4e7-f9643bff56aa",
+    "exam_id": "46d3bed6-d7e9-4923-926a-0287b4e659bf",
+    "order_num": 20,
+    "content": "(Choose 1 answer)\nAnalyze the relationship between the dining philosophers problem and the use of semaphores or mutexes in concurrent programming, outlining the potential for deadlock situations and solutions.",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-04-30T00:16:34.384957+00:00",
+    "explanation": "- Dịch đề: Phân tích mối quan hệ giữa bài toán các triết gia ăn tối và việc sử dụng semaphore hoặc mutex trong lập trình đồng thời, nêu bật nguy cơ xảy ra bế tắc (deadlock) và giải pháp.\n- Giải thích: Bài toán các triết gia ăn tối là ví dụ điển hình minh họa việc các tiến trình cạnh tranh tài nguyên chia sẻ (các chiếc nĩa) được quản lý bởi semaphore/mutex có thể dẫn đến tình trạng **bế tắc (deadlock)** nếu không có thuật toán đồng bộ hóa và phân bổ tài nguyên hợp lý [5-7].\n\n---",
+    "question_options": [
+      {
+        "id": "c5da5c53-3900-4b51-9409-146bfcaa6722",
+        "label": "A",
+        "content": "The dining philosophers problem exemplifies the need for thread priorities in deadlock resolution.",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "79b577e1-a077-45b6-a4e7-f9643bff56aa"
+      },
+      {
+        "id": "0fc3b244-b300-4932-9e25-fb25739abcea",
+        "label": "B",
+        "content": "Semaphores and mutexes help prevent deadlocks by allowing multiple processes to access critical sections simultaneously.",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "79b577e1-a077-45b6-a4e7-f9643bff56aa"
+      },
+      {
+        "id": "a432ceae-4e5c-4c19-9bc4-8ff8c5003d23",
+        "label": "C",
+        "content": "The dining philosophers problem demonstrates how shared resources, managed by semaphores or mutexes, can lead to deadlock situations without proper synchronization.",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "79b577e1-a077-45b6-a4e7-f9643bff56aa"
+      },
+      {
+        "id": "8526c73f-e62c-4a05-8856-4417f63e78ab",
+        "label": "D",
+        "content": "Semaphores and mutexes are ineffective in resolving the dining philosophers problem, as it primarily deals with scheduling issues.",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "79b577e1-a077-45b6-a4e7-f9643bff56aa"
+      }
+    ]
+  },
+  {
+    "id": "28294d91-7f1f-4ffe-b00c-815bf8e8991a",
+    "exam_id": "46d3bed6-d7e9-4923-926a-0287b4e659bf",
+    "order_num": 21,
+    "content": "(Choose 1 answer)\nConsider a swapping system in which memory consists of the following hole sizes in memory order: \\\\(16\\text{ MB}\\\\), \\\\(4\\text{ MB}\\\\), \\\\(12\\text{ MB}\\\\), \\\\(28\\text{ MB}\\\\), \\\\(8\\text{ MB}\\\\), \\\\(22\\text{ MB}\\\\), \\\\(12\\text{ MB}\\\\), and \\\\(18\\text{ MB}\\\\). Which hole is taken for successive segment requests of \\\\(12\\text{ MB}\\\\) for worst fit?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-04-30T00:16:35.222417+00:00",
+    "explanation": "- Dịch đề: Xét một hệ thống hoán đổi (swapping) trong đó bộ nhớ bao gồm các vùng trống (hole) theo thứ tự bộ nhớ là: 16 MB, 4 MB, 12 MB, 28 MB, 8 MB, 22 MB, 12 MB và 18 MB. Vùng trống nào sẽ được chọn cho yêu cầu cấp phát phân đoạn liên tiếp dung lượng 12 MB theo thuật toán Worst Fit (khớp kém nhất)?\n- Giải thích: Thuật toán Worst Fit luôn duyệt toàn bộ danh sách bộ nhớ trống và chọn vùng trống có kích thước lớn nhất đủ để đáp ứng yêu cầu cấp phát. Trong danh sách các vùng trống hiện có [16 MB, 4 MB, 12 MB, 28 MB, 8 MB, 22 MB, 12 MB, 18 MB], vùng trống lớn nhất là 28 MB. Do đó, yêu cầu cấp phát 12 MB sẽ chọn vùng trống 28 MB.\nCác phương án còn lại sai vì:\n+ A (18 MB): Không phải là vùng trống lớn nhất trong danh sách.\n+ C (12 MB): Là vùng trống được chọn theo thuật toán Best Fit (chọn vùng trống nhỏ nhất vừa đủ).\n+ D (16 MB): Là vùng trống được chọn theo thuật toán First Fit (chọn vùng trống đủ lớn đầu tiên tìm thấy).",
+    "question_options": [
+      {
+        "id": "1378540d-6027-46e5-8a58-aae05a6ab1f8",
+        "label": "A",
+        "content": "\\\\(18\\text{ MB}\\\\)",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "28294d91-7f1f-4ffe-b00c-815bf8e8991a"
+      },
+      {
+        "id": "317ced5e-68cb-4d3c-b2a9-625905dcf9fb",
+        "label": "B",
+        "content": "\\\\(28\\text{ MB}\\\\)",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "28294d91-7f1f-4ffe-b00c-815bf8e8991a"
+      },
+      {
+        "id": "5830174b-dc53-44e4-ba0e-56233c70e8cc",
+        "label": "C",
+        "content": "\\\\(12\\text{ MB}\\\\)",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "28294d91-7f1f-4ffe-b00c-815bf8e8991a"
+      },
+      {
+        "id": "b51910f9-cd8c-4e97-b631-a0d1018ff84a",
+        "label": "D",
+        "content": "\\\\(16\\text{ MB}\\\\)",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "28294d91-7f1f-4ffe-b00c-815bf8e8991a"
+      }
+    ]
+  },
+  {
+    "id": "eb6a6660-c597-44d4-b89a-74ad496c90d5",
+    "exam_id": "46d3bed6-d7e9-4923-926a-0287b4e659bf",
+    "order_num": 22,
+    "content": "(Choose 1 answer)\nIf a higher priority process arrives and wants service, the memory manager can swap out the lower priority process to execute the higher priority process. When the higher priority process finishes, the lower priority process is swapped back in and continues execution. This variant of swapping is sometimes called?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-04-30T00:16:36.135642+00:00",
+    "explanation": "- Dịch đề: Nếu một tiến trình có độ ưu tiên cao hơn xuất hiện và cần phục vụ, bộ quản lý bộ nhớ có thể hoán đổi (swap out) tiến trình có độ ưu tiên thấp hơn ra đĩa để thực thi tiến trình có độ ưu tiên cao hơn. Khi tiến trình có độ ưu tiên cao hơn hoàn tất, tiến trình có độ ưu tiên thấp hơn sẽ được hoán đổi trở lại (swap in) bộ nhớ và tiếp tục thực thi. Biến thể hoán đổi này đôi khi được gọi là gì?\n- Giải thích: Biến thể hoán đổi dựa trên độ ưu tiên (priority-based swapping), nơi tiến trình độ ưu tiên thấp bị đưa ra bộ nhớ ngoài để nhường chỗ cho tiến trình độ ưu tiên cao và sau đó được tải trở lại bộ nhớ chính, được gọi là kỹ thuật \"roll out, roll in\" (hoặc rollout / rollin).\nCác phương án B, C, D sai vì không phải là thuật ngữ chuẩn được sử dụng trong lý thuyết hệ điều hành để mô tả biến thể này.",
+    "question_options": [
+      {
+        "id": "8548d6f7-82f1-4801-bded-53679c23b66e",
+        "label": "A",
+        "content": "roll out, roll in",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "eb6a6660-c597-44d4-b89a-74ad496c90d5"
+      },
+      {
+        "id": "db046c10-2a8e-4d5f-8278-87c1f29951d6",
+        "label": "B",
+        "content": "priority swapping",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "eb6a6660-c597-44d4-b89a-74ad496c90d5"
+      },
+      {
+        "id": "16c270a0-6108-4dd8-a78b-639f8e9c71e0",
+        "label": "C",
+        "content": "pull in, push out",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "eb6a6660-c597-44d4-b89a-74ad496c90d5"
+      },
+      {
+        "id": "d7817fd0-6d33-438e-b314-49d5e53acae1",
+        "label": "D",
+        "content": "pull out, push in",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "eb6a6660-c597-44d4-b89a-74ad496c90d5"
+      }
+    ]
+  },
+  {
+    "id": "2b3956a7-fa7b-4e76-92ca-b92ac6eff692",
+    "exam_id": "46d3bed6-d7e9-4923-926a-0287b4e659bf",
+    "order_num": 23,
+    "content": "(Choose 1 answer)\nWhat is the purpose of a segment table in a segmented memory system?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-04-30T00:16:37.049895+00:00",
+    "explanation": "- Dịch đề: Mục đích của bảng phân đoạn (segment table) trong hệ thống bộ nhớ phân đoạn là gì?\n- Giải thích: Trong hệ thống quản lý bộ nhớ theo cơ chế phân đoạn (segmentation), một địa chỉ logic bao gồm số hiệu phân đoạn (segment number) và khoảng bù (offset). Bảng phân đoạn được sử dụng để ánh xạ số hiệu phân đoạn thành địa chỉ vật lý (physical address) trong bộ nhớ chính.\nCác phương án còn lại sai vì:\n+ A: Lưu trữ nội dung trang đĩa là chức năng của vùng hoán đổi/bộ nhớ phụ (swap space/disk).\n+ C: Quản lý bộ nhớ đệm CPU (cache) do phần cứng đảm nhiệm.\n+ D: Điều khiển thao tác vào/ra là chức năng của bộ điều khiển I/O và trình điều khiển thiết bị (device driver).",
+    "question_options": [
+      {
+        "id": "95f27254-334a-4c7c-b31c-c47b0fde3506",
+        "label": "A",
+        "content": "To store the contents of disk pages",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "2b3956a7-fa7b-4e76-92ca-b92ac6eff692"
+      },
+      {
+        "id": "cc84efe1-e8cd-4405-a2a4-ae78308299f0",
+        "label": "B",
+        "content": "To map segment numbers to physical addresses",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "2b3956a7-fa7b-4e76-92ca-b92ac6eff692"
+      },
+      {
+        "id": "28a2e5e1-9b05-4600-9094-d8bde0d07fa8",
+        "label": "C",
+        "content": "To manage CPU cache memory",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "2b3956a7-fa7b-4e76-92ca-b92ac6eff692"
+      },
+      {
+        "id": "d43f8928-7bd7-41bb-b996-3cbdbfe1945b",
+        "label": "D",
+        "content": "To control input/output operations",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "2b3956a7-fa7b-4e76-92ca-b92ac6eff692"
+      }
+    ]
+  },
+  {
+    "id": "6d0a121d-130d-4a14-9038-b4450dee812b",
+    "exam_id": "46d3bed6-d7e9-4923-926a-0287b4e659bf",
+    "order_num": 24,
+    "content": "(Choose 1 answer)\nThe percentage of times a page number is found in the TLB is known as ________.",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-04-30T00:16:37.974579+00:00",
+    "explanation": "- Dịch đề: Tỷ lệ phần trăm số lần tìm thấy số trang trong bộ đệm TLB được gọi là ________.\n- Giải thích: Trong hệ thống phân trang sử dụng bộ đệm chuyển đổi địa chỉ TLB (Translation Lookaside Buffer), tỷ lệ phần trăm các lần truy cập mà số trang được tìm thấy ngay trong TLB được định nghĩa là \"hit ratio\" (tỷ lệ trúng).\nCác phương án còn lại sai vì:\n+ A (miss ratio): Là tỷ lệ phần trăm số lần KHÔNG tìm thấy số trang trong TLB.\n+ B (miss percent) và D (hit percent): Không phải là thuật ngữ kỹ thuật tiêu chuẩn trong hệ điều hành.",
+    "question_options": [
+      {
+        "id": "cdae0942-873e-44e9-8efc-94147d4d0e00",
+        "label": "A",
+        "content": "miss ratio",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "6d0a121d-130d-4a14-9038-b4450dee812b"
+      },
+      {
+        "id": "521ef17a-5284-4763-9a11-de16ba32e6a4",
+        "label": "B",
+        "content": "miss percent",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "6d0a121d-130d-4a14-9038-b4450dee812b"
+      },
+      {
+        "id": "6ae53bc5-cb8b-4264-aee5-8d081ef788e4",
+        "label": "C",
+        "content": "hit ratio",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "6d0a121d-130d-4a14-9038-b4450dee812b"
+      },
+      {
+        "id": "149b00fc-f088-4348-9429-b2d53a319e38",
+        "label": "D",
+        "content": "hit percent",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "6d0a121d-130d-4a14-9038-b4450dee812b"
+      }
+    ]
+  },
+  {
+    "id": "95eb7d8b-48b8-4227-a370-134d4820b389",
+    "exam_id": "46d3bed6-d7e9-4923-926a-0287b4e659bf",
+    "order_num": 25,
+    "content": "(Choose 1 answer)\nWhen there is a large logical address space, the best way of paging would be ________.",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-04-30T00:16:38.791512+00:00",
+    "explanation": "- Dịch đề: Khi không gian địa chỉ logic rất lớn, phương pháp phân trang tốt nhất sẽ là ________.\n- Giải thích: Khi không gian địa chỉ logic quá lớn (như kiến trúc 32-bit hoặc 64-bit), bảng trang 1 cấp sẽ có kích thước cực kỳ lớn và tiêu tốn quá nhiều bộ nhớ liên tục. Giải pháp hiệu quả nhất là sử dụng cấu trúc phân trang nhiều cấp, trong đó phổ biến là thuật toán phân trang 2 cấp (two-level paging algorithm) nhằm chia nhỏ bảng trang thành các phần có thể quản lý và phân trang được.\nCác phương án còn lại sai vì:\n+ A (not to page): Không phân trang sẽ làm hệ thống không quản lý được bộ nhớ ảo cho các chương trình lớn.\n+ C (the page table itself): Không phải là tên một phương pháp hay thuật toán phân trang.\n+ D (a single-level paging algorithm): Bảng trang 1 cấp sẽ bị phình to quá mức khi không gian địa chỉ logic lớn.",
+    "question_options": [
+      {
+        "id": "daa920fd-2f51-4017-9aa2-d10c75c1a674",
+        "label": "A",
+        "content": "not to page",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "95eb7d8b-48b8-4227-a370-134d4820b389"
+      },
+      {
+        "id": "2297d6a6-b84d-4ee2-bd12-ba6e102c9f8f",
+        "label": "B",
+        "content": "a two-level paging algorithm",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "95eb7d8b-48b8-4227-a370-134d4820b389"
+      },
+      {
+        "id": "2f4ef16c-cc8d-4bec-af16-f5e48a201469",
+        "label": "C",
+        "content": "the page table itself",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "95eb7d8b-48b8-4227-a370-134d4820b389"
+      },
+      {
+        "id": "64ef37f0-4561-4e80-8e71-69cdf5e18532",
+        "label": "D",
+        "content": "a single-level paging algorithm",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "95eb7d8b-48b8-4227-a370-134d4820b389"
+      }
+    ]
+  },
+  {
+    "id": "e122a312-031b-4253-af45-d61d6794c1e2",
+    "exam_id": "46d3bed6-d7e9-4923-926a-0287b4e659bf",
+    "order_num": 26,
+    "content": "(Choose 1 answer)\n_______ searches the entire list, from beginning to end, and takes the smallest hole that is adequate.",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-04-30T00:16:39.714744+00:00",
+    "explanation": "- Dịch đề: _______ tìm kiếm toàn bộ danh sách, từ đầu đến cuối, và chọn vùng trống nhỏ nhất vừa đủ chứa yêu cầu.\n- Giải thích: Thuật toán Best Fit (khớp tốt nhất) duyệt qua toàn bộ danh sách các vùng trống trong bộ nhớ và chọn ra vùng trống có kích thước nhỏ nhất nhưng vẫn đủ lớn để đáp ứng yêu cầu cấp phát.\nCác phương án còn lại sai vì:\n+ B (Next fit): Bắt đầu tìm kiếm từ vị trí cấp phát trước đó và chọn vùng trống đủ lớn tiếp theo.\n+ C (Worst fit): Duyệt toàn bộ danh sách và chọn vùng trống LỚN NHẤT.\n+ D (First fit): Duyệt từ đầu danh sách và chọn ngay vùng trống ĐẦU TIÊN đủ lớn.",
+    "question_options": [
+      {
+        "id": "ef18548a-187b-4a35-82b3-1c07e3526c96",
+        "label": "A",
+        "content": "Best fit",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "e122a312-031b-4253-af45-d61d6794c1e2"
+      },
+      {
+        "id": "7518b671-64ba-4463-a748-6343937f3828",
+        "label": "B",
+        "content": "Next fit",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "e122a312-031b-4253-af45-d61d6794c1e2"
+      },
+      {
+        "id": "49d30bbd-c9b3-433e-b23a-57076dd4b512",
+        "label": "C",
+        "content": "Worst fit",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "e122a312-031b-4253-af45-d61d6794c1e2"
+      },
+      {
+        "id": "772b3aa0-ca5d-462b-857a-85056b9b16f9",
+        "label": "D",
+        "content": "First fit",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "e122a312-031b-4253-af45-d61d6794c1e2"
+      }
+    ]
+  },
+  {
+    "id": "11802b53-914c-4f5d-8ce1-b349d06eb7f0",
+    "exam_id": "46d3bed6-d7e9-4923-926a-0287b4e659bf",
+    "order_num": 27,
+    "content": "(Choose 1 answer)\nThe _______ swaps processes in and out of the memory.",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-04-30T00:16:40.636576+00:00",
+    "explanation": "- Dịch đề: _______ thực hiện việc hoán đổi các tiến trình ra và vào bộ nhớ.\n- Giải thích: Bộ quản lý bộ nhớ (Memory manager) là thành phần của hệ điều hành chịu trách nhiệm quản lý không gian bộ nhớ, cấp phát/thu hồi bộ nhớ và thực hiện hoán đổi (swap in/swap out) các tiến trình giữa bộ nhớ chính (RAM) và đĩa cứng.\nCác phương án còn lại sai vì:\n+ A (CPU): Là bộ vi xử lý thực thi lệnh, không đảm nhiệm việc quản lý hoán đổi bộ nhớ.\n+ B (CPU manager): Quản lý việc lập lịch và phân bổ thời gian xử lý cho tiến trình.\n+ D (User): Người dùng không trực tiếp thao tác hoán đổi tiến trình trong hệ thống.",
+    "question_options": [
+      {
+        "id": "5ed3835a-0bb9-4a9f-9788-f3c4c869d5f5",
+        "label": "A",
+        "content": "CPU",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "11802b53-914c-4f5d-8ce1-b349d06eb7f0"
+      },
+      {
+        "id": "aa865bf6-0a34-4314-9486-07ef4a3ac41e",
+        "label": "B",
+        "content": "CPU manager",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "11802b53-914c-4f5d-8ce1-b349d06eb7f0"
+      },
+      {
+        "id": "c2a4806c-5337-404f-ac98-0e70d8195d45",
+        "label": "C",
+        "content": "Memory manager",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "11802b53-914c-4f5d-8ce1-b349d06eb7f0"
+      },
+      {
+        "id": "22cc5caf-f50b-41a9-9ae5-9efcf2f4b631",
+        "label": "D",
+        "content": "User",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "11802b53-914c-4f5d-8ce1-b349d06eb7f0"
+      }
+    ]
+  },
+  {
+    "id": "0fbf8920-0463-4338-a560-4a6765f9502f",
+    "exam_id": "46d3bed6-d7e9-4923-926a-0287b4e659bf",
+    "order_num": 28,
+    "content": "(Choose 1 answer)\nWhat is the main advantage of using the Clock Algorithm over the Second Chance Algorithm in terms of page replacement efficiency?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-04-30T00:16:41.469671+00:00",
+    "explanation": "- Dịch đề: Ưu điểm chính của việc sử dụng Thuật toán Đồng hồ (Clock Algorithm) so me với Thuật toán Cơ hội Thứ hai (Second Chance Algorithm) về mặt hiệu quả thay thế trang là gì?\n- Giải thích: Thuật toán Second Chance duy trì danh sách trang theo thứ tự FIFO; khi cần thay thế, nếu trang có bit R=1 thì bit R bị xóa và trang bị di chuyển xuống cuối danh sách liên kết, tạo ra chi phí quản lý con trỏ (overhead). Thuật toán Clock khắc phục điều này bằng cách sắp xếp các khung trang theo danh sách vòng và dùng một kim chỉ. Khi kiểm tra, thuật toán chỉ cần di chuyển kim chỉ thay vì dịch chuyển vị trí các trang trong danh sách, giúp loại bỏ thao tác di chuyển trang và giảm đáng kể chi phí quản lý.\nCác phương án còn lại sai vì:\n+ B: Thuật toán Clock giảm chi phí thực thi chứ không tăng độ phức tạp thực tế.\n+ C: Thuật toán Clock đưa ra quyết định thay thế tương đương Second Chance nên tỷ lệ lỗi trang (page fault) là như nhau.\n+ D: Thuật toán Clock không tốn nhiều bộ nhớ hơn.",
+    "question_options": [
+      {
+        "id": "9cecda47-8f56-46cb-a7db-c18f3773acbd",
+        "label": "A",
+        "content": "The Clock algorithm eliminates the need to move pages around, reducing overhead.",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "0fbf8920-0463-4338-a560-4a6765f9502f"
+      },
+      {
+        "id": "088f5c5f-26ec-47fc-a3c5-c758fffb31ae",
+        "label": "B",
+        "content": "The Clock algorithm increases the complexity of implementation.",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "0fbf8920-0463-4338-a560-4a6765f9502f"
+      },
+      {
+        "id": "457d7714-5e40-435b-8313-fb6f11504958",
+        "label": "C",
+        "content": "The Clock algorithm guarantees fewer page faults compared to Second Chance algorithm.",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "0fbf8920-0463-4338-a560-4a6765f9502f"
+      },
+      {
+        "id": "b8c1afda-ddff-441f-a026-348144913928",
+        "label": "D",
+        "content": "The Clock algorithm uses more memory to maintain the circular structure.",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "0fbf8920-0463-4338-a560-4a6765f9502f"
+      }
+    ]
+  },
+  {
+    "id": "3159fec1-7faa-4676-845c-dda036c78c0a",
+    "exam_id": "46d3bed6-d7e9-4923-926a-0287b4e659bf",
+    "order_num": 29,
+    "content": "(Choose 1 answer)\nFiles are _______ units of information created by processes.",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-04-30T00:16:42.174183+00:00",
+    "explanation": "- Dịch đề: Tệp (File) là các đơn vị thông tin _______ được tạo ra bởi các tiến trình.\n- Giải thích: Trong khái niệm của hệ điều hành, tệp (file) là một đơn vị thông tin logic (logical unit) do tiến trình tạo ra. Hệ điều hành trừu tượng hóa các chi tiết vật lý của thiết bị lưu trữ để cung cấp một không gian lưu trữ logic thống nhất cho người dùng và ứng dụng.\nCác phương án còn lại sai vì:\n+ A (physical): Tệp là khái niệm logic, được hệ điều hành ánh xạ xuống các khối vật lý trên thiết bị lưu trữ.\n+ C (sequential) và D (conditional): Không đúng với định nghĩa bản chất của tệp trong hệ điều hành.",
+    "question_options": [
+      {
+        "id": "1a61ca75-2518-4dfa-a917-f0ba25530d78",
+        "label": "A",
+        "content": "physical",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "3159fec1-7faa-4676-845c-dda036c78c0a"
+      },
+      {
+        "id": "0277a5fa-d093-42c6-ae37-75e81760a249",
+        "label": "B",
+        "content": "logical",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "3159fec1-7faa-4676-845c-dda036c78c0a"
+      },
+      {
+        "id": "36b83c31-b944-4b55-a9a3-850526a2ea10",
+        "label": "C",
+        "content": "sequential",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "3159fec1-7faa-4676-845c-dda036c78c0a"
+      },
+      {
+        "id": "11474492-0619-46d0-bb81-d6f2d30e4194",
+        "label": "D",
+        "content": "conditional",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "3159fec1-7faa-4676-845c-dda036c78c0a"
+      }
+    ]
+  },
+  {
+    "id": "aaf3a361-3c78-422a-902d-d8d34c343ebe",
+    "exam_id": "46d3bed6-d7e9-4923-926a-0287b4e659bf",
+    "order_num": 30,
+    "content": "(Choose 1 answer)\nWhich file is a sequence of bytes organized into blocks understandable by the system's linker?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-04-30T00:16:43.064681+00:00",
+    "explanation": "- Dịch đề: Loại tệp nào là một chuỗi các byte được tổ chức thành các khối mà trình liên kết (linker) của hệ thống có thể hiểu được?\n- Giải thích: Tệp đối tượng (Object file) chứa mã máy và dữ liệu được trình biên dịch tạo ra từ mã nguồn, sắp xếp thành các khối (sections) với cấu trúc mà trình liên kết (linker) có thể đọc và xử lý để liên kết thành tệp thực thi.\nCác phương án còn lại sai vì:\n+ A (Text file): Tệp văn bản chứa chuỗi ký tự hiển thị được.\n+ C (Source file): Tệp mã nguồn chứa câu lệnh do lập trình viên viết bằng ngôn ngữ lập trình.\n+ D (Executable file): Tệp thực thi là kết quả đầu ra SAU KHI trình liên kết (linker) đã liên kết các tệp object, sẵn sàng để nạp vào bộ nhớ chạy.",
+    "question_options": [
+      {
+        "id": "217622b6-d5c2-404f-96a4-96e7a6bb00e8",
+        "label": "A",
+        "content": "Text file",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "aaf3a361-3c78-422a-902d-d8d34c343ebe"
+      },
+      {
+        "id": "fe703003-8717-4cfb-b38e-737e416a8982",
+        "label": "B",
+        "content": "Object file",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "aaf3a361-3c78-422a-902d-d8d34c343ebe"
+      },
+      {
+        "id": "056cafbd-b920-4fd8-a751-55d804c5277e",
+        "label": "C",
+        "content": "Source file",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "aaf3a361-3c78-422a-902d-d8d34c343ebe"
+      },
+      {
+        "id": "88a82f8e-66dd-450d-b476-b10239ff16af",
+        "label": "D",
+        "content": "Executable file",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "aaf3a361-3c78-422a-902d-d8d34c343ebe"
+      }
+    ]
+  },
+  {
+    "id": "02d8e9ec-5c58-4694-be19-34977c99f232",
+    "exam_id": "46d3bed6-d7e9-4923-926a-0287b4e659bf",
+    "order_num": 31,
+    "content": "(Choose 1 answer)\nWhen designing a file system aimed at optimizing file retrieval by grouping related file blocks closely together, which file allocation strategy is best suited for performance improvement?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-04-30T00:16:44.022197+00:00",
+    "explanation": "- Dịch đề: Khi thiết kế một hệ thống tập tin nhằm tối ưu hóa việc truy xuất tập tin bằng cách nhóm các khối tập tin liên quan lại gần nhau, phương pháp cấp phát tập tin nào phù hợp nhất để cải thiện hiệu năng?\n- Giải thích: Chiến lược **cấp phát liên tục** (Contiguous files) lưu trữ toàn bộ các khối dữ liệu của tập tin thành một dải liên tiếp trên đĩa, giúp tối ưu hóa hiệu năng truy xuất nhờ giảm thiểu tối đa thời gian di chuyển đầu đọc đĩa (seek time).\n\n---",
+    "question_options": [
+      {
+        "id": "e2987874-2d1d-4171-a112-69653bf1a1dd",
+        "label": "A",
+        "content": "Linked lists",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "02d8e9ec-5c58-4694-be19-34977c99f232"
+      },
+      {
+        "id": "5dd88d24-4ced-4479-9507-f93ac4539200",
+        "label": "B",
+        "content": "Contiguous files",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "02d8e9ec-5c58-4694-be19-34977c99f232"
+      },
+      {
+        "id": "2eab4b76-89a7-4101-b672-0608add5041d",
+        "label": "C",
+        "content": "File-allocation tables",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "02d8e9ec-5c58-4694-be19-34977c99f232"
+      },
+      {
+        "id": "a706c721-3e84-426a-8338-227f563ca49b",
+        "label": "D",
+        "content": "I-nodes",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "02d8e9ec-5c58-4694-be19-34977c99f232"
+      }
+    ]
+  },
+  {
+    "id": "2333e1d5-637e-4c62-bca4-1927d17da19b",
+    "exam_id": "46d3bed6-d7e9-4923-926a-0287b4e659bf",
+    "order_num": 32,
+    "content": "(Choose 1 answer)\nWhat is the key distinction between a relative path and an absolute path?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-04-30T00:16:45.042078+00:00",
+    "explanation": "- Dịch đề: Điểm khác biệt cốt lõi giữa đường dẫn tương đối (relative path) và đường dẫn tuyệt đối (absolute path) là gì?\n- Giải thích: Đường dẫn tuyệt đối luôn bắt đầu từ thư mục gốc (`/`), trong khi đường dẫn tương đối phụ thuộc vào **thư mục làm việc hiện tại** (current working directory) của tiến trình.\n\n---",
+    "question_options": [
+      {
+        "id": "d29c4d45-7bbd-4fd6-a77c-a8aacfed8164",
+        "label": "A",
+        "content": "Relative paths always begin from the root directory",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "2333e1d5-637e-4c62-bca4-1927d17da19b"
+      },
+      {
+        "id": "dafaa938-7632-421a-8ce3-0125fdc2b7ca",
+        "label": "B",
+        "content": "Relative paths are shorter than absolute paths",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "2333e1d5-637e-4c62-bca4-1927d17da19b"
+      },
+      {
+        "id": "d2553efd-408a-422b-9c46-f2b5dde1a0d1",
+        "label": "C",
+        "content": "Relative paths depend on the current working directory",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "2333e1d5-637e-4c62-bca4-1927d17da19b"
+      },
+      {
+        "id": "431027fd-6f99-4b81-bbeb-d62dc6cf48c7",
+        "label": "D",
+        "content": "Relative paths contain only file extensions",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "2333e1d5-637e-4c62-bca4-1927d17da19b"
+      }
+    ]
+  },
+  {
+    "id": "7f70d3ae-a02f-4664-b297-99283d6e9e91",
+    "exam_id": "46d3bed6-d7e9-4923-926a-0287b4e659bf",
+    "order_num": 33,
+    "content": "(Choose 1 answer)\nHow can the effectiveness of caching and read-ahead techniques in enhancing file-system performance be evaluated, considering their contributions and potential limitations?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-04-30T00:16:45.962638+00:00",
+    "explanation": "- Dịch đề: Đánh giá hiệu quả của kỹ thuật bộ đệm (caching) và đọc trước (read-ahead) trong việc nâng cao hiệu năng hệ thống tập tin, xem xét đóng góp và những hạn chế tiềm ẩn của chúng?\n- Giải thích: **Bộ đệm** (caching) tăng tốc đáng kể việc truy xuất dữ liệu thường xuyên dùng nhưng có thể gặp vấn đề về tính nhất quán bộ đệm (cache coherence / consistency) khi hệ thống gặp sự cố; trong khi **đọc trước** (read-ahead) dự đoán truy cập nối tiếp để nạp trước các khối đĩa nhưng có thể gây ra các thao tác đọc đĩa thừa thãi nếu tiến trình truy cập ngẫu nhiên.\n\n---",
+    "question_options": [
+      {
+        "id": "53600adf-ea54-4650-8689-4ba6b5d44b15",
+        "label": "A",
+        "content": "Caching significantly accelerates file retrieval but may encounter cache coherence issues, whereas read-ahead improves performance by predicting file accesses but can trigger unneeded disk reads.",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "7f70d3ae-a02f-4664-b297-99283d6e9e91"
+      },
+      {
+        "id": "db77e0cf-1041-485c-b2df-d05194edeed5",
+        "label": "B",
+        "content": "Caching and read-ahead techniques exert no noticeable impact on file-system performance, offering negligible advantages over other optimization methods.",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "7f70d3ae-a02f-4664-b297-99283d6e9e91"
+      },
+      {
+        "id": "4aad957c-e0c1-4c77-a587-7b2d4d8bfe80",
+        "label": "C",
+        "content": "Caching improves disk usage by storing frequently accessed data but increases latency, whereas read-ahead guarantees faster file retrieval without drawbacks.",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "7f70d3ae-a02f-4664-b297-99283d6e9e91"
+      },
+      {
+        "id": "c25e947f-890c-4576-ad0f-dad6da1d9cad",
+        "label": "D",
+        "content": "Caching and read-ahead both substantially enhance file-system performance without introducing any limitations or trade-offs.",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "7f70d3ae-a02f-4664-b297-99283d6e9e91"
+      }
+    ]
+  },
+  {
+    "id": "ae259ccf-7561-4db6-8ce4-38d372474f26",
+    "exam_id": "46d3bed6-d7e9-4923-926a-0287b4e659bf",
+    "order_num": 34,
+    "content": "(Choose 1 answer)\nA disk may be partitioned into one or multiple partitions. What is the first block of any partition called?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-04-30T00:16:46.887102+00:00",
+    "explanation": "- Dịch đề: Một ổ đĩa có thể được phân chia thành một hoặc nhiều phân vùng. Khối đầu tiên của bất kỳ phân vùng nào được gọi là gì?\n- Giải thích: Khối đầu tiên (block 0) của mọi phân vùng đĩa được gọi là **Boot block** (khối khởi động), chứa mã nạp hệ điều hành của phân vùng đó.\n\n---",
+    "question_options": [
+      {
+        "id": "17a10224-9865-4f76-8726-3e578c0dd19b",
+        "label": "A",
+        "content": "Boot block",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "ae259ccf-7561-4db6-8ce4-38d372474f26"
+      },
+      {
+        "id": "5d9da1c5-8dec-4fa2-9528-26b03aa3b151",
+        "label": "B",
+        "content": "Free block",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "ae259ccf-7561-4db6-8ce4-38d372474f26"
+      },
+      {
+        "id": "1b7b237d-74d7-4f05-8784-01580928f7ff",
+        "label": "C",
+        "content": "Super block",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "ae259ccf-7561-4db6-8ce4-38d372474f26"
+      },
+      {
+        "id": "1b861ef6-ac37-47fd-b86c-9cc27ca3a967",
+        "label": "D",
+        "content": "MBR",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "ae259ccf-7561-4db6-8ce4-38d372474f26"
+      }
+    ]
+  },
+  {
+    "id": "c0f7a935-78e0-473e-afde-0c85c5b3597d",
+    "exam_id": "46d3bed6-d7e9-4923-926a-0287b4e659bf",
+    "order_num": 35,
+    "content": "(Choose 1 answer)\nGiven a \\\\(4\\text{-TB}\\\\) disk using \\\\(4\\text{-KB}\\\\) blocks and the free-list method, how many block addresses can be stored within a single block?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-04-30T00:16:47.694873+00:00",
+    "explanation": "- Dịch đề: Cho một ổ đĩa dung lượng 4 TB sử dụng kích thước khối 4 KB và phương pháp danh sách tự do (free-list), có bao nhiêu địa chỉ khối có thể được lưu trữ trong một khối đơn lẻ?\n- Giải thích:\n+ Tổng số khối trên ổ đĩa = \\\\(\\frac{4\\text{ TB}}{4\\text{ KB}} = \\frac{4 \\times 2^{40}\\text{ bytes}}{4 \\times 2^{10}\\text{ bytes}} = 2^{30}\\text{ khối}\\\\).\n+ Để đánh địa chỉ cho \\\\(2^{30}\\\\) khối, mỗi con trỏ/địa chỉ khối cần 30 bits, tức chiếm một số nguyên **32-bit (4 bytes)**.\n+ Một khối kích thước 4 KB có dung lượng là \\\\(4096\\text{ bytes}\\\\).\n+ Số lượng địa chỉ khối có thể chứa trong một khối 4 KB là: \\\\(\\frac{4096\\text{ bytes}}{4\\text{ bytes/địa chỉ}} = \\mathbf{1024\\text{ địa chỉ}}\\\\).",
+    "question_options": [
+      {
+        "id": "02c43c79-de77-4d4a-ab28-2b5c45c2ce64",
+        "label": "A",
+        "content": "1024 addresses",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "c0f7a935-78e0-473e-afde-0c85c5b3597d"
+      },
+      {
+        "id": "aebf84b7-e271-4930-91f4-c2c93f8ea103",
+        "label": "B",
+        "content": "256 addresses",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "c0f7a935-78e0-473e-afde-0c85c5b3597d"
+      },
+      {
+        "id": "49405454-9b3c-450b-b7fb-4f9ca3754f1b",
+        "label": "C",
+        "content": "512 addresses",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "c0f7a935-78e0-473e-afde-0c85c5b3597d"
+      },
+      {
+        "id": "066c435b-dbb3-4502-b17a-938eb1dd72b0",
+        "label": "D",
+        "content": "2048 addresses",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "c0f7a935-78e0-473e-afde-0c85c5b3597d"
+      },
+      {
+        "id": "9d056dc7-3078-4ab9-b064-b838d0ad24d2",
+        "label": "E",
+        "content": "128 addresses",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "c0f7a935-78e0-473e-afde-0c85c5b3597d"
+      }
+    ]
+  },
+  {
+    "id": "d9e5ab82-4717-41ac-bb83-91f655beb452",
+    "exam_id": "46d3bed6-d7e9-4923-926a-0287b4e659bf",
+    "order_num": 36,
+    "content": "(Choose 1 answer)\nUsing a linked list of disk blocks, with a 1-KB block and a 32-bit disk block number, how many blocks were held on a free list management block?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-04-30T00:16:48.489954+00:00",
+    "explanation": "- Dịch đề: Sử dụng danh sách liên kết các khối đĩa, với một khối 1 KB và số hiệu khối đĩa 32-bit, có bao nhiêu khối được chứa trong một khối quản lý danh sách tự do?\n- Giải thích: Một khối đĩa 1 KB có dung lượng 1024 bytes. Do số hiệu khối đĩa 32-bit chiếm 4 bytes, một khối đĩa 1 KB có thể chứa tổng cộng 1024 / 4 = 256 con trỏ/địa chỉ. Trong phương pháp quản lý danh sách tự do bằng danh sách liên kết, 1 vị trí con trỏ được dành ra để trỏ đến khối quản lý tiếp theo trong danh sách, do đó khối này giữ 256 - 1 = 255 số hiệu khối đĩa trống.",
+    "question_options": [
+      {
+        "id": "093ca70f-ad82-4019-addf-c72ed652127d",
+        "label": "A",
+        "content": "255",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "d9e5ab82-4717-41ac-bb83-91f655beb452"
+      },
+      {
+        "id": "71a75a74-f9be-4f1d-85f2-355a6f8325d9",
+        "label": "B",
+        "content": "1024",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "d9e5ab82-4717-41ac-bb83-91f655beb452"
+      },
+      {
+        "id": "f1803411-216a-443a-ad48-b811569183ea",
+        "label": "C",
+        "content": "32",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "d9e5ab82-4717-41ac-bb83-91f655beb452"
+      },
+      {
+        "id": "0d11506f-52bc-4321-a53d-627925d4a685",
+        "label": "D",
+        "content": "128",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "d9e5ab82-4717-41ac-bb83-91f655beb452"
+      }
+    ]
+  },
+  {
+    "id": "e115d34d-1d07-4d2c-8af9-769bf134ec92",
+    "exam_id": "46d3bed6-d7e9-4923-926a-0287b4e659bf",
+    "order_num": 37,
+    "content": "(Choose 1 answer)\nThe hardware mechanism that allows a device to notify the CPU is called ......",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-04-30T00:16:49.339544+00:00",
+    "explanation": "- Dịch đề: Cơ chế phần cứng cho phép một thiết bị thông báo cho CPU được gọi là ......\n- Giải thích: Ngắt (interrupt) là cơ chế phần cứng cho phép thiết bị I/O hoặc bộ điều khiển thiết bị phát tín hiệu chủ động thông báo cho CPU khi hoàn thành thao tác hoặc cần sự can thiệp.",
+    "question_options": [
+      {
+        "id": "5e68bc4c-b996-49b4-a137-870a343b4a1c",
+        "label": "A",
+        "content": "interrupt",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "e115d34d-1d07-4d2c-8af9-769bf134ec92"
+      },
+      {
+        "id": "8b6eb39d-ccff-42a2-b523-ffe8af06725e",
+        "label": "B",
+        "content": "polling",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "e115d34d-1d07-4d2c-8af9-769bf134ec92"
+      },
+      {
+        "id": "8b206938-9f1a-443d-a4d2-b71fe2e6d9a7",
+        "label": "C",
+        "content": "driver",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "e115d34d-1d07-4d2c-8af9-769bf134ec92"
+      },
+      {
+        "id": "9979b815-35ae-40a6-96d1-b4c2e162089d",
+        "label": "D",
+        "content": "controlling",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "e115d34d-1d07-4d2c-8af9-769bf134ec92"
+      }
+    ]
+  },
+  {
+    "id": "b9187b1f-c825-4343-8c86-69e08b15ef29",
+    "exam_id": "46d3bed6-d7e9-4923-926a-0287b4e659bf",
+    "order_num": 38,
+    "content": "(Choose 1 answer)\nWhich RAID level provides disk striping without fault tolerance?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-04-30T00:16:50.062086+00:00",
+    "explanation": "- Dịch đề: Cấp độ RAID nào cung cấp kỹ thuật phân luồng dữ liệu (disk striping) mà không có khả năng chịu lỗi (fault tolerance)?\n- Giải thích: RAID 0 chia dữ liệu thành các dải (strips) và ghi liên tiếp trải đều trên các đĩa (disk striping) để tăng tốc độ truy xuất, nhưng không sử dụng đĩa dự phòng hay mã kiểm tra lỗi nên không có khả năng chịu lỗi.",
+    "question_options": [
+      {
+        "id": "04a0b00f-efc5-481a-a48b-af1bdf507952",
+        "label": "A",
+        "content": "RAID 0",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "b9187b1f-c825-4343-8c86-69e08b15ef29"
+      },
+      {
+        "id": "b18b538b-8811-4dee-9f81-5467907b68c2",
+        "label": "B",
+        "content": "RAID 1",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "b9187b1f-c825-4343-8c86-69e08b15ef29"
+      },
+      {
+        "id": "1f910652-a8b8-4f61-baf8-0d5560fa8631",
+        "label": "C",
+        "content": "RAID 2",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "b9187b1f-c825-4343-8c86-69e08b15ef29"
+      },
+      {
+        "id": "6fb22e27-184c-48c6-b618-716a7ea49576",
+        "label": "D",
+        "content": "RAID 5",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "b9187b1f-c825-4343-8c86-69e08b15ef29"
+      },
+      {
+        "id": "fcfff4bb-7e48-4bfa-bf56-ee9c5499d0a3",
+        "label": "E",
+        "content": "RAID 6",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "b9187b1f-c825-4343-8c86-69e08b15ef29"
+      }
+    ]
+  },
+  {
+    "id": "4d7fbd1d-6883-4b81-a868-0c4779a099db",
+    "exam_id": "46d3bed6-d7e9-4923-926a-0287b4e659bf",
+    "order_num": 39,
+    "content": "(Choose 1 answer)\nIn Disk Arm Scheduling Algorithms:\nConsider the seek to cylinder 11 is in progress, new requests come in for cylinders 1, 36, 16, 34, 9, and 12; A seek takes 6 msec per cylinder.\nCalculate Seek time with Shortest Seek First (SSF) algorithm?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-04-30T00:16:50.91385+00:00",
+    "explanation": "- Dịch đề: Trong các thuật toán điều khiển cần đĩa: Giả sử việc di chuyển đến cylinder 11 đang thực hiện, các yêu cầu mới đến cho các cylinder 1, 36, 16, 34, 9 và 12; Một lần di chuyển mất 6 ms cho mỗi cylinder. Hãy tính thời gian tìm kiếm (Seek time) theo thuật toán Shortest Seek First (SSF)?\n- Giải thích: Thuật toán SSF luôn chọn yêu cầu cylinder gần nhất với vị trí hiện tại của đầu đọc:\n- Từ 11 đến 12: khoảng cách = |12 - 11| = 1 cylinder.\n- Từ 12 đến 9: khoảng cách = |9 - 12| = 3 cylinders.\n- Từ 9 đến 16: khoảng cách = |16 - 9| = 7 cylinders.\n- Từ 16 đến 1: khoảng cách = |1 - 16| = 15 cylinders.\n- Từ 1 đến 34: khoảng cách = |34 - 1| = 33 cylinders.\n- Từ 34 đến 36: khoảng cách = |36 - 34| = 2 cylinders.\nTong quãng đường di chuyển = 1 + 3 + 7 + 15 + 33 + 2 = 61 cylinders.\nThời gian tìm kiếm (Seek time) = 61 * 6 ms = 366 ms.",
+    "question_options": [
+      {
+        "id": "5de2fb70-9f21-4552-853f-9523441b35b8",
+        "label": "A",
+        "content": "360ms",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "4d7fbd1d-6883-4b81-a868-0c4779a099db"
+      },
+      {
+        "id": "4422daa9-3cb9-4b8d-a413-b25b346786ed",
+        "label": "B",
+        "content": "366ms",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "4d7fbd1d-6883-4b81-a868-0c4779a099db"
+      },
+      {
+        "id": "014b0743-46e1-4a08-b5ae-3e9943737a4e",
+        "label": "C",
+        "content": "560ms",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "4d7fbd1d-6883-4b81-a868-0c4779a099db"
+      },
+      {
+        "id": "1919262e-da6f-411c-b50b-506ff38ce300",
+        "label": "D",
+        "content": "566ms",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "4d7fbd1d-6883-4b81-a868-0c4779a099db"
+      },
+      {
+        "id": "8a05d720-0e0d-40cd-8685-be936d91b8ae",
+        "label": "E",
+        "content": "666ms",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "4d7fbd1d-6883-4b81-a868-0c4779a099db"
+      }
+    ]
+  },
+  {
+    "id": "d0f3812a-60c2-4f5a-8aa2-090833efda00",
+    "exam_id": "46d3bed6-d7e9-4923-926a-0287b4e659bf",
+    "order_num": 40,
+    "content": "(Choose 1 answer)\nWhat is the goal of uniform naming in the context of file and device management?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-04-30T00:16:51.894584+00:00",
+    "explanation": "- Dịch đề: Mục tiêu của việc đặt tên đồng nhất (uniform naming) trong ngữ cảnh quản lý tệp và thiết bị là gì?\n- Giải thích: Đặt tên đồng nhất (uniform naming) nhằm đảm bảo tên của một tệp hoặc thiết bị là một chuỗi ký tự hoặc số nguyên đơn giản, độc lập và không phụ thuộc vào loại thiết bị.\n\n💡 Bạn có muốn giải tiếp các câu hỏi trắc nghiệm khác hoặc cần tạo bộ thẻ ghi nhớ (flashcards) tổng hợp các công thức tính toán quản lý đĩa này không?",
+    "question_options": [
+      {
+        "id": "9f80b65a-fe2e-4f4c-989a-08a73abb7e1c",
+        "label": "A",
+        "content": "To make file names unique to each device",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "d0f3812a-60c2-4f5a-8aa2-090833efda00"
+      },
+      {
+        "id": "7cdc81d3-e70a-45e8-8d44-c25f720acc2c",
+        "label": "B",
+        "content": "To limit file names to a specific format",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "d0f3812a-60c2-4f5a-8aa2-090833efda00"
+      },
+      {
+        "id": "59ffe535-bee5-423f-b1b9-2374cc1d2b5a",
+        "label": "C",
+        "content": "To differentiate file names based on the device type",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "d0f3812a-60c2-4f5a-8aa2-090833efda00"
+      },
+      {
+        "id": "d6c8bf01-bb12-47b3-9ee2-7d8f79fc83a7",
+        "label": "D",
+        "content": "To ensure the name of a file or device is a simple string or integer, independent of the device",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "d0f3812a-60c2-4f5a-8aa2-090833efda00"
+      }
+    ]
+  },
+  {
+    "id": "94da4bb8-252b-437b-a705-5f42d4bffccf",
+    "exam_id": "46d3bed6-d7e9-4923-926a-0287b4e659bf",
+    "order_num": 41,
+    "content": "(Choose 1 answer)\nWhile the search for cylinder \\\\(11\\\\) is in progress, new requests appear for cylinders \\\\(1, 36, 16, 34, 9,\\\\) and \\\\(12\\\\). Considering FCFS (First Come First Serve) scheduling, what is the total number of head movements?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-04-30T00:16:52.82273+00:00",
+    "explanation": "- Dịch đề: Trong khi quá trình tìm kiếm xi-lanh (cylinder) 11 đang diễn ra, các yêu cầu mới xuất hiện cho các xi-lanh 1, 36, 16, 34, 9, và 12. Tính theo thuật toán lập lịch đĩa FCFS (First Come First Serve), tổng số chuyển động của đầu đọc/ghi (head movements) là bao nhiêu?\n- Giải thích:\n+ Vị trí đầu đọc hiện tại đang ở xi-lanh 11.\n+ Theo thuật toán FCFS (đến trước phục vụ trước), danh sách các xi-lanh được di chuyển lần lượt theo đúng thứ tự yêu cầu xuất hiện: 1 -> 36 -> 16 -> 34 -> 9 -> 12.\n+ Số chuyển động giữa các xi-lanh liên tiếp bằng giá trị tuyệt đối của hiệu khoảng cách:\n* Từ 11 đến 1: |1 - 11| = 10\n* Từ 1 đến 36: |36 - 1| = 35\n* Từ 36 đến 16: |16 - 36| = 20\n* Từ 16 đến 34: |34 - 16| = 18\n* Từ 34 đến 9: |9 - 34| = 25\n* Từ 9 đến 12: |12 - 9| = 3\n+ Tổng số chuyển động của đầu đọc = 10 + 35 + 20 + 18 + 25 + 3 = 111.\n+ Do đó, phương án A (111) là đáp án đúng. Các phương án B, C, D tính toán sai tổng số chuyển động.",
+    "question_options": [
+      {
+        "id": "a1a9434c-8a62-47b8-ba40-ee50594c928b",
+        "label": "A",
+        "content": "111",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "94da4bb8-252b-437b-a705-5f42d4bffccf"
+      },
+      {
+        "id": "472d29a2-fcc2-4014-9340-32610530da7c",
+        "label": "B",
+        "content": "61",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "94da4bb8-252b-437b-a705-5f42d4bffccf"
+      },
+      {
+        "id": "530d2354-69f5-4453-975b-69c6e2724f98",
+        "label": "C",
+        "content": "60",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "94da4bb8-252b-437b-a705-5f42d4bffccf"
+      },
+      {
+        "id": "40ae8c31-6bff-4534-9bac-af4749f8e7a8",
+        "label": "D",
+        "content": "108",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "94da4bb8-252b-437b-a705-5f42d4bffccf"
+      }
+    ]
+  },
+  {
+    "id": "46bb0250-bc7b-49d9-a2cd-8ae1aaa18828",
+    "exam_id": "46d3bed6-d7e9-4923-926a-0287b4e659bf",
+    "order_num": 42,
+    "content": "(Choose 1 answer)\nIn DMA transfer cycle, what two modes can many buses operate in?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-04-30T00:16:53.641211+00:00",
+    "explanation": "- Dịch đề: Trong chu kỳ truyền dữ liệu DMA, nhiều bus có thể hoạt động ở hai chế độ nào?\n- Giải thích:\n+ Trong cơ chế Truy cập bộ nhớ trực tiếp (DMA), bus hệ thống thường hoạt động ở hai chế độ truyền chính:\n1. Chế độ truyền từng từ (Word-at-a-time mode) / Chế độ chiếm dụng chu kỳ (Cycle stealing mode): Bộ điều khiển DMA yêu cầu truyền từng từ (word) dữ liệu một và giải phóng bus ngay sau đó để CPU tiếp tục sử dụng.\n2. Chế độ khối (Block mode) / Chế độ bùng nổ (Burst mode): Bộ điều khiển DMA chiếm giữ bus để truyền liên tục một khối dữ liệu lớn trước khi trả lại quyền điều khiển bus cho CPU.\n+ Do đó, phương án B là đáp án đúng. Các phương án A, C, D sử dụng các thuật ngữ sai (byte mode, bit mode, page mode) không phản ánh đúng chế độ hoạt động của bus trong DMA.",
+    "question_options": [
+      {
+        "id": "530ed970-3d6f-40e5-a9d3-2eac3d92e0be",
+        "label": "A",
+        "content": "Word-at-a-time mode and byte mode.",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "46bb0250-bc7b-49d9-a2cd-8ae1aaa18828"
+      },
+      {
+        "id": "393db6cb-9305-40cb-baf1-83e6e590b890",
+        "label": "B",
+        "content": "Word-at-a-time mode and block mode.",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "46bb0250-bc7b-49d9-a2cd-8ae1aaa18828"
+      },
+      {
+        "id": "b710e47e-2997-425f-bc35-c44f8a0aa5a9",
+        "label": "C",
+        "content": "Word-at-a-time mode and bit mode.",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "46bb0250-bc7b-49d9-a2cd-8ae1aaa18828"
+      },
+      {
+        "id": "044330fc-e3a6-4501-b8a0-629de6911f0a",
+        "label": "D",
+        "content": "Word-at-a-time mode and page mode.",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "46bb0250-bc7b-49d9-a2cd-8ae1aaa18828"
+      }
+    ]
+  },
+  {
+    "id": "37cc3a9e-0653-419c-9af3-a4c22baac696",
+    "exam_id": "46d3bed6-d7e9-4923-926a-0287b4e659bf",
+    "order_num": 43,
+    "content": "(Choose 1 answer)\nFor I/O operations, what is a common block size range is used in a file system or the storage medium?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-04-30T00:16:54.46099+00:00",
+    "explanation": "- Dịch đề: Đối với các thao tác vào/ra (I/O), phạm vi kích thước khối (block size) phổ biến được sử dụng trong hệ thống tập tin hoặc phương tiện lưu trữ là bao nhiêu?\n- Giải thích:\n+ Trong quản lý hệ thống vào/ra và hệ thống tập tin của hệ điều hành, các thiết bị khối (block devices) lưu trữ dữ liệu theo các khối có kích thước cố định. Kích thước sector vật lý nhỏ nhất là 512 bytes và kích thước khối của hệ thống tập tin thường linh hoạt mở rộng lên đến 64 KB (tương đương 65,536 bytes).\n+ Do đó, phạm vi kích thước khối tiêu chuẩn được sử dụng là từ 512 đến 65536 bytes (phương án D đúng). Các phương án A, B, C giới hạn kích thước tối đa quá nhỏ (8 KB, 16 KB, 32 KB) so với phạm vi thực tế của các hệ thống tập tin hiện đại.",
+    "question_options": [
+      {
+        "id": "94cee13e-2ff9-47e1-a7f3-9992f597ed8a",
+        "label": "A",
+        "content": "\\\\(512\\\\) to \\\\(8192\\\\) bytes",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "37cc3a9e-0653-419c-9af3-a4c22baac696"
+      },
+      {
+        "id": "f3dbb217-3d89-4594-99a8-f039cfae46e4",
+        "label": "B",
+        "content": "\\\\(512\\\\) to \\\\(16384\\\\) bytes",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "37cc3a9e-0653-419c-9af3-a4c22baac696"
+      },
+      {
+        "id": "358c35a7-b3f1-4edf-8910-c17f2d867419",
+        "label": "C",
+        "content": "\\\\(512\\\\) to \\\\(32768\\\\) bytes",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "37cc3a9e-0653-419c-9af3-a4c22baac696"
+      },
+      {
+        "id": "80552ad2-3b2f-43a6-be4e-2c3c3e776ce7",
+        "label": "D",
+        "content": "\\\\(512\\\\) to \\\\(65536\\\\) bytes",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "37cc3a9e-0653-419c-9af3-a4c22baac696"
+      }
+    ]
+  },
+  {
+    "id": "22377d83-b353-4c03-b225-b8f08544be79",
+    "exam_id": "46d3bed6-d7e9-4923-926a-0287b4e659bf",
+    "order_num": 44,
+    "content": "(Choose 1 answer)\nWhat addresses are typically used by most DMA controllers for transmission?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-04-30T00:16:55.482752+00:00",
+    "explanation": "- Dịch đề: Hầu hết các bộ điều khiển DMA sử dụng loại địa chỉ nào để truyền dữ liệu?\n- Giải thích:\n+ Bộ điều khiển DMA (Direct Memory Access Controller) tương tác trực tiếp với các đường bus phần cứng và bộ nhớ RAM mà không đi qua Đơn vị quản lý bộ nhớ (MMU) trong quá trình truyền dữ liệu. Do đó, DMA bắt buộc phải sử dụng địa chỉ bộ nhớ vật lý (Physical memory address) để đọc/ghi trực tiếp vào ô nhớ RAM.\n+ Trước khi khởi động DMA, hệ điều hành sẽ dịch địa chỉ ảo (Virtual memory) hoặc địa chỉ logic (Logical memory) của tiến trình thành địa chỉ vật lý tương ứng và nạp vào thanh ghi của DMA controller.\n+ Do đó, phương án D là đáp án đúng. Các phương án A, B, C sai vì DMA phần cứng không làm việc trực tiếp trên địa chỉ ảo hay địa chỉ logic.",
+    "question_options": [
+      {
+        "id": "81dcbe96-8305-422e-937a-c1bc63ebb337",
+        "label": "A",
+        "content": "Logical memory",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "22377d83-b353-4c03-b225-b8f08544be79"
+      },
+      {
+        "id": "d10b3994-3c43-42ca-8c9f-684aaba61cc4",
+        "label": "B",
+        "content": "Abstract memory",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "22377d83-b353-4c03-b225-b8f08544be79"
+      },
+      {
+        "id": "fbe7b871-a3b4-4325-b50a-64afa2136acf",
+        "label": "C",
+        "content": "Virtual memory",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "22377d83-b353-4c03-b225-b8f08544be79"
+      },
+      {
+        "id": "45dacb93-d87c-4827-8e5c-c46ee979178d",
+        "label": "D",
+        "content": "Physical memory",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "22377d83-b353-4c03-b225-b8f08544be79"
+      }
+    ]
+  },
+  {
+    "id": "6b223b42-d48a-4d04-b97a-63260a03eabf",
+    "exam_id": "46d3bed6-d7e9-4923-926a-0287b4e659bf",
+    "order_num": 45,
+    "content": "(Choose 1 answer)\nThe number of resources requested by a process _______",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-04-30T00:16:56.241587+00:00",
+    "explanation": "- Dịch đề: Số lượng tài nguyên mà một tiến trình yêu cầu _______\n- Giải thích:\n+ Trong quản lý tài nguyên và kiểm soát bế tắc (Deadlock) của hệ điều hành, nguyên tắc hợp lệ là một tiến trình có thể yêu cầu tối đa bằng số lượng tài nguyên hiện có trong toàn bộ hệ thống. Nói cách khác, số tài nguyên yêu cầu không được phép vượt quá (must not exceed) tổng số tài nguyên sẵn có của hệ thống.\n+ Phương án A sai vì tiến trình có thể yêu cầu số tài nguyên bằng đúng tổng số tài nguyên của hệ thống (không nhất thiết phải nhỏ hơn strictly).\n+ Phương án C sai vì tiến trình không bắt buộc phải luôn luôn yêu cầu số tài nguyên bằng đúng tổng tài nguyên hệ thống.\n+ Phương án D sai vì nếu tiến trình yêu cầu vượt quá số tài nguyên hệ thống có, yêu cầu đó sẽ không bao giờ có thể được đáp ứng.",
+    "question_options": [
+      {
+        "id": "52d6a2d2-8c42-42b3-b1ec-4cad485492ef",
+        "label": "A",
+        "content": "must always be less than the total number of resources available in the system",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "6b223b42-d48a-4d04-b97a-63260a03eabf"
+      },
+      {
+        "id": "9766c28b-aba1-4e03-b818-12b3b2905e13",
+        "label": "B",
+        "content": "must not exceed the total number of resources available in the system",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "6b223b42-d48a-4d04-b97a-63260a03eabf"
+      },
+      {
+        "id": "1a4855ea-2439-4ee6-9b0d-fc5f17a1ee95",
+        "label": "C",
+        "content": "must always be equal to the total number of resources available in the system",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "6b223b42-d48a-4d04-b97a-63260a03eabf"
+      },
+      {
+        "id": "12564f17-8339-467d-af4b-5bf8f9714bc5",
+        "label": "D",
+        "content": "must exceed the total number of resources available in the system",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "6b223b42-d48a-4d04-b97a-63260a03eabf"
+      }
+    ]
+  },
+  {
+    "id": "9e4e706c-b066-4bcb-8585-2bf3c982c470",
+    "exam_id": "46d3bed6-d7e9-4923-926a-0287b4e659bf",
+    "order_num": 46,
+    "content": "(Choose 1 answer)\nWhat is a key advantage of using DMA for data transfer operations?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-04-30T00:16:57.122683+00:00",
+    "explanation": "- Dịch đề: Ưu điểm chính của việc sử dụng DMA cho các thao tác truyền dữ liệu là gì?\n- Giải thích:\n+ DMA cho phép các thiết bị vào/ra truyền dữ liệu trực tiếp đến hoặc từ bộ nhớ RAM mà không cần CPU phải tham gia can thiệp vào từng byte/từng từ dữ liệu. Việc giảm tải cho CPU giúp dữ liệu được truyền với tốc độ nhanh hơn (Faster data transfer speeds) và nâng cao hiệu suất chung của hệ thống.\n+ Phương án A sai vì DMA giúp giảm sự can thiệp của CPU chứ không tăng.\n+ Phương án C sai vì tính tương thích bị giới hạn là nhược điểm chứ không phải ưu điểm.\n+ Phương án D sai vì DMA tăng cường khả năng tự chủ của bộ điều khiển thiết bị đối với bus bộ nhớ chứ không giảm quyền kiểm soát.",
+    "question_options": [
+      {
+        "id": "3eefa62d-d570-4c08-a2dd-f764724900b9",
+        "label": "A",
+        "content": "Increased CPU involvement in data transfers",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "9e4e706c-b066-4bcb-8585-2bf3c982c470"
+      },
+      {
+        "id": "d098529d-7ed7-4b47-b425-e0667ce37839",
+        "label": "B",
+        "content": "Faster data transfer speeds",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "9e4e706c-b066-4bcb-8585-2bf3c982c470"
+      },
+      {
+        "id": "4002454b-2355-4ba4-8d7f-a7b54f93c0d6",
+        "label": "C",
+        "content": "Limited device compatibility",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "9e4e706c-b066-4bcb-8585-2bf3c982c470"
+      },
+      {
+        "id": "34dd3ebd-0912-4344-8cee-a8eae4796951",
+        "label": "D",
+        "content": "Decreased device control over memory",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "9e4e706c-b066-4bcb-8585-2bf3c982c470"
+      }
+    ]
+  },
+  {
+    "id": "bc333e7d-2aac-458a-9f50-99c1e3b87bf1",
+    "exam_id": "46d3bed6-d7e9-4923-926a-0287b4e659bf",
+    "order_num": 47,
+    "content": "(Choose 1 answer)\nWhich of the following isn't a method to prevent deadlocks in operating systems?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-04-30T00:16:57.947075+00:00",
+    "explanation": "- Dịch đề: Phương pháp nào sau đây KHÔNG phải là một phương pháp phòng ngừa bế tắc (deadlock prevention) trong hệ điều hành?\n- Giải thích:\n+ Chiến lược Phòng ngừa bế tắc (Deadlock Prevention) hoạt động bằng cách triệt tiêu/triệt phá ít nhất 1 trong 4 điều kiện cần để xảy ra bế tắc (Loại bỏ Loại trừ lẫn nhau, Loại bỏ Giữ và chờ, Loại bỏ Không trưng dụng, Loại bỏ Chờ đợi vòng tròn - tương ứng với các phương án A, C, D, E).\n+ Thuật toán người thủ thư (Banker's Algorithm) thuộc chiến lược Né tránh bế tắc (Deadlock Avoidance) bằng cách kiểm tra trạng thái an toàn động trước khi cấp phát tài nguyên, chứ không phải là phương pháp Phòng ngừa bế tắc (Prevention).\n+ Do đó, phương án B là đáp án đúng cho câu hỏi tìm phương pháp KHÔNG thuộc nhóm phòng ngừa bế tắc.",
+    "question_options": [
+      {
+        "id": "825a361a-0a8d-456c-9d9a-3deccf0024bd",
+        "label": "A",
+        "content": "Attacking the Mutual Exclusion Condition",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "bc333e7d-2aac-458a-9f50-99c1e3b87bf1"
+      },
+      {
+        "id": "8d65ae4d-2199-45c8-a140-9cb9c1d0a211",
+        "label": "B",
+        "content": "Use Banker's Algorithm",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "bc333e7d-2aac-458a-9f50-99c1e3b87bf1"
+      },
+      {
+        "id": "07b804f9-d642-4f58-a53e-c91d9381d7c5",
+        "label": "C",
+        "content": "Attacking the Hold and Wait Condition",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "bc333e7d-2aac-458a-9f50-99c1e3b87bf1"
+      },
+      {
+        "id": "88bf30ca-41a5-4ad5-92fa-cef19aed4e36",
+        "label": "D",
+        "content": "Attacking the No Preemption Condition",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "bc333e7d-2aac-458a-9f50-99c1e3b87bf1"
+      },
+      {
+        "id": "a48b161b-249c-454f-89be-5ae83c79125a",
+        "label": "E",
+        "content": "Attacking the Circular Wait Condition",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "bc333e7d-2aac-458a-9f50-99c1e3b87bf1"
+      }
+    ]
+  },
+  {
+    "id": "13e69b8d-dec6-4f2e-b928-8873360dad1c",
+    "exam_id": "46d3bed6-d7e9-4923-926a-0287b4e659bf",
+    "order_num": 48,
+    "content": "(Choose 1 answer)\nA problem closely related to deadlock and livelock is _______",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-04-30T00:16:58.657088+00:00",
+    "explanation": "- Dịch đề: Một vấn đề có liên quan chặt chẽ với bế tắc (deadlock) và livelock là _______\n- Giải thích:\n+ Trong đồng bộ hóa tiến trình của hệ điều hành, Đói tài nguyên (Starvation) là sự cố liên quan chặt chẽ với bế tắc (Deadlock) và Livelock. Starvation xảy ra khi một tiến trình hoàn toàn sẵn sàng chạy nhưng bị trì hoãn vô thời hạn vì các tiến trình khác liên tục được hệ thống ưu tiên cấp phát tài nguyên trước.\n+ Do đó, phương án A (Starvation) là đáp án đúng. Các phương án B, C, D không phải là dạng sự cố tiến trình bị treo/kẹt tiến trình tương tự như deadlock và livelock.",
+    "question_options": [
+      {
+        "id": "4e873a73-d654-4b17-9582-1fe42925d73c",
+        "label": "A",
+        "content": "Starvation",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "13e69b8d-dec6-4f2e-b928-8873360dad1c"
+      },
+      {
+        "id": "aca420ff-d1b3-41b0-836f-7e9612b0a4ea",
+        "label": "B",
+        "content": "Communication",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "13e69b8d-dec6-4f2e-b928-8873360dad1c"
+      },
+      {
+        "id": "3e58dd3f-a5e2-404b-a51a-1097bc252878",
+        "label": "C",
+        "content": "Two-phase locking",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "13e69b8d-dec6-4f2e-b928-8873360dad1c"
+      },
+      {
+        "id": "83b5ab61-21bd-49f4-a45b-ea89cbfc9395",
+        "label": "D",
+        "content": "Prevention",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "13e69b8d-dec6-4f2e-b928-8873360dad1c"
+      }
+    ]
+  },
+  {
+    "id": "cfffcd73-a057-4c96-96ad-826937773b65",
+    "exam_id": "46d3bed6-d7e9-4923-926a-0287b4e659bf",
+    "order_num": 49,
+    "content": "(Choose 1 answer)\nIn disk scheduling, which algorithm is considered the fairest but may lead to high seek times?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-04-30T00:16:59.490513+00:00",
+    "explanation": "- Dịch đề: Trong lập lịch đĩa, thuật toán nào được coi là công bằng nhất nhưng có thể dẫn đến thời gian tìm kiếm (seek time) cao?\n- Giải thích:\n+ Thuật toán FCFS (First-Come, First-Served) phục vụ các yêu cầu truy xuất đĩa strictly theo đúng thứ tự thời gian gửi đến. Do phục vụ theo nguyên tắc \"đến trước phục vụ trước\" không phân biệt vị trí, FCFS được đánh giá là công bằng nhất (fairest) và hoàn toàn tránh được tình trạng đói tài nguyên (starvation). Tuy nhiên, vì không tối ưu hóa quãng đường di chuyển của đầu đọc, FCFS dẫn đến tổng thời gian di chuyển đầu đọc rất lớn (high seek times).\n+ Các thuật toán SSTF, SCAN, C-SCAN tối ưu thời gian di chuyển đầu đọc nhưng ít công bằng hơn FCFS do có thể khiến các yêu cầu ở xa bị hoãn lại.\n+ Do đó, phương án A là đáp án đúng.",
+    "question_options": [
+      {
+        "id": "65ec8e8c-5550-4ec9-b8b4-1e8c784d6502",
+        "label": "A",
+        "content": "FCFS",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "cfffcd73-a057-4c96-96ad-826937773b65"
+      },
+      {
+        "id": "6d418267-b681-4c32-9333-b1871fc9ce4e",
+        "label": "B",
+        "content": "SSTF",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "cfffcd73-a057-4c96-96ad-826937773b65"
+      },
+      {
+        "id": "83784649-a0a1-436a-b09f-0ee7f09d55e0",
+        "label": "C",
+        "content": "SCAN",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "cfffcd73-a057-4c96-96ad-826937773b65"
+      },
+      {
+        "id": "1d8f3e52-586c-4f2d-a73e-cf786c605929",
+        "label": "D",
+        "content": "C-SCAN",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "cfffcd73-a057-4c96-96ad-826937773b65"
+      }
+    ]
+  },
+  {
+    "id": "5b027c2a-91f9-438a-af70-30f7145fc362",
+    "exam_id": "46d3bed6-d7e9-4923-926a-0287b4e659bf",
+    "order_num": 50,
+    "content": "(Choose 1 answer)\nEvaluate the role of memory virtualization in optimizing resource allocation in a virtualized environment. How does this technique impact overall system performance?",
+    "image_url": null,
+    "type": "text",
+    "chapter_name": "Tổng hợp",
+    "extra_images": [],
+    "created_at": "2026-04-30T00:17:00.499767+00:00",
+    "explanation": "- Dịch đề: Đánh giá vai trò của ảo hóa bộ nhớ trong việc tối ưu hóa cấp phát tài nguyên trong môi trường ảo hóa. Kỹ thuật này ảnh hưởng như thế nào đến hiệu suất tổng thể của hệ thống?\n- Giải thích:\n+ Ảo hóa bộ nhớ (Memory Virtualization) cho phép hệ điều hành/hypervisor quản lý và chia sẻ bộ nhớ vật lý linh hoạt giữa các máy ảo và tiến trình. Nó hỗ trợ cấp phát bộ nhớ động theo nhu cầu thực tế, giảm lãng phí tài nguyên và cho phép tái sử dụng bộ nhớ hiệu quả, từ đó nâng cao hiệu quả cấp phát tài nguyên và cải thiện hiệu suất tổng thể của hệ thống (enhances resource allocation efficiency, improving system performance).\n+ Do đó, phương án B là đáp án đúng. Các phương án A, C, D nhận định sai vai trò cải thiện hiệu suất của ảo hóa bộ nhớ.",
+    "question_options": [
+      {
+        "id": "c7711b4e-2b91-43fa-bd63-b952d4355313",
+        "label": "A",
+        "content": "It effectively isolates processes from one another, which can lead to a reduction in overall system performance due to the additional resources required for maintaining this isolation.",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "5b027c2a-91f9-438a-af70-30f7145fc362"
+      },
+      {
+        "id": "1e72848f-3f2a-48c6-9142-97c953664fab",
+        "label": "B",
+        "content": "It enhances resource allocation efficiency, improving system performance.",
+        "image_url": null,
+        "is_correct": true,
+        "question_id": "5b027c2a-91f9-438a-af70-30f7145fc362"
+      },
+      {
+        "id": "9525371a-20cc-474e-8428-feaed1acde52",
+        "label": "C",
+        "content": "It complicates memory management, decreasing performance.",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "5b027c2a-91f9-438a-af70-30f7145fc362"
+      },
+      {
+        "id": "3f8e7d91-cff0-4373-9847-876d8816de1d",
+        "label": "D",
+        "content": "It only impacts I/O performance, not overall system performance.",
+        "image_url": null,
+        "is_correct": false,
+        "question_id": "5b027c2a-91f9-438a-af70-30f7145fc362"
+      }
+    ]
+  }
+]
